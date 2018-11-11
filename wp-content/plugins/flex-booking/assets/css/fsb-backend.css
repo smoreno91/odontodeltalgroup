@@ -1,0 +1,18 @@
+.fsb-img-item{
+    display: inline-block;
+    width: 49%;
+}
+.fsb-img-images {
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin-bottom: 10px;
+    max-width: 80%;
+    box-shadow: 1px 1px 6px #ddd;
+}
+.fsb-img-item:hover img, .fsb-img-active img{
+    box-shadow: 1px 1px 6px red;
+    cursor: pointer;
+}

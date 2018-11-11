@@ -1,0 +1,952 @@
+/*--------------------------------------------------------------
+4.0 Social
+--------------------------------------------------------------*/
+//.social-icons,.demo-icon{
+    a[class*='soc-']:before {
+    	font-family: 'socicon';
+    	font-size: 14px;
+    }
+    
+    a.social-icon {
+    	display: inline-block;
+    	line-height: 1;
+    	text-align: center;
+    	vertical-align: middle;
+        margin-bottom: 4px;
+    }
+    
+    a.social-icon span {
+    	opacity: 0.7;
+    	display: block;
+    	font-size: 14px;
+    	text-transform: uppercase;
+    }
+    
+    a.social-icon span:first-child {
+    	font-size: 24px;
+    	margin-top: 8px;
+    	font-weight: bold;
+    }
+    
+    a.social-icon [class*="rt-icon"] + span {
+    	font-size: 24px;
+    	margin-top: 8px;
+    	font-weight: bold;
+    }
+    a.social-icon + a.social-icon{
+        margin-left: 16px;
+    }
+    .demo-icon1 a.social-icon,
+    .demo-icon1 .tooltip + a.social-icon {
+    	margin: 10px;
+    }
+    
+    a.social-icon.bg-icon + a.social-icon.bg-icon {
+    	margin-left: 7px;
+    }
+    
+    a.social-icon.color-bg-icon + a.social-icon.color-bg-icon {
+    	margin-left: 6px;
+    }
+    
+    a.social-icon.block-icon {
+    	width: 100%;
+    }
+    
+    a[class*='soc-'].rounded-icon {
+    	border-radius: 50%;
+    }
+    
+    a.big-icon.social-icon {
+    	position: relative;
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-webkit-box-pack: justify;
+    	-ms-flex-pack: justify;
+    	justify-content: space-between;
+    	-ms-flex-wrap: wrap;
+    	flex-wrap: wrap;
+    	height: 60px;
+    	line-height: 60px;
+    	padding: 0 30px 0 90px;
+    	overflow: hidden;
+    }
+    
+    a.big-icon.social-icon[class*='soc-']:before {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 60px;
+    	line-height: 60px;
+    	border-right: 1px solid #ffffff;
+    	font-size: 16px;
+    }
+    
+    a.big-icon.social-icon span {
+    	text-transform: uppercase;
+    	font-size: 12px;
+    	margin-top: 0;
+    }
+    
+    a.big-icon.social-icon .social-title {
+    	font-weight: 700;
+    	letter-spacing: 0.05em;
+    }
+    
+    a.big-icon.social-icon + a.big-icon.social-icon {
+    	margin: 10px 0 0;
+    }
+    
+    /*corporate colors*/
+    a.color-icon.soc-twitter, a[class*="soc-"].soc-twitter:hover {
+    	color: #00abef;
+    	border-color: #00abef;
+    }
+    
+    a.color-icon.soc-facebook, a[class*="soc-"].soc-facebook:hover {
+    	color: #507cbe;
+    	border-color: #507cbe;
+    }
+    
+    a.color-icon.soc-google, a[class*="soc-"].soc-google:hover {
+    	color: #d93e2d;
+    	border-color: #d93e2d;
+    }
+    
+    a.color-icon.soc-pinterest, a[class*="soc-"].soc-pinterest:hover {
+    	color: #c92619;
+    	border-color: #c92619;
+    }
+    
+    a.color-icon.soc-foursquare, a[class*="soc-"].soc-foursquare:hover {
+    	color: #23b7e0;
+    	border-color: #23b7e0;
+    }
+    
+    a.color-icon.soc-yahoo, a[class*="soc-"].soc-yahoo:hover {
+    	color: #6e2a85;
+    	border-color: #6e2a85;
+    }
+    
+    a.color-icon.soc-skype, a[class*="soc-"].soc-skype:hover {
+    	color: #28abe3;
+    	border-color: #28abe3;
+    }
+    
+    a.color-icon.soc-yelp, a[class*="soc-"].soc-yelp:hover {
+    	color: #c83218;
+    	border-color: #c83218;
+    }
+    
+    a.color-icon.soc-feedburner, a[class*="soc-"].soc-feedburner:hover {
+    	color: #ffcc00;
+    	border-color: #ffcc00;
+    }
+    
+    a.color-icon.soc-linkedin, a[class*="soc-"].soc-linkedin:hover {
+    	color: #3371b7;
+    	border-color: #3371b7;
+    }
+    
+    a.color-icon.soc-viadeo, a[class*="soc-"].soc-viadeo:hover {
+    	color: #e4a000;
+    	border-color: #e4a000;
+    }
+    
+    a.color-icon.soc-xing, a[class*="soc-"].soc-xing:hover {
+    	color: #005a60;
+    	border-color: #005a60;
+    }
+    
+    a.color-icon.soc-myspace, a[class*="soc-"].soc-myspace:hover {
+    	color: #323232;
+    	border-color: #323232;
+    }
+    
+    a.color-icon.soc-soundcloud, a[class*="soc-"].soc-soundcloud:hover {
+    	color: #fe3801;
+    	border-color: #fe3801;
+    }
+    
+    a.color-icon.soc-spotify, a[class*="soc-"].soc-spotify:hover {
+    	color: #7bb342;
+    	border-color: #7bb342;
+    }
+    
+    a.color-icon.soc-grooveshark, a[class*="soc-"].soc-grooveshark:hover {
+    	color: #f67e03;
+    	border-color: #f67e03;
+    }
+    
+    a.color-icon.soc-lastfm, a[class*="soc-"].soc-lastfm:hover {
+    	color: #d41316;
+    	border-color: #d41316;
+    }
+    
+    a.color-icon.soc-youtube, a[class*="soc-"].soc-youtube:hover {
+    	color: #d12121;
+    	border-color: #d12121;
+    }
+    
+    a.color-icon.soc-vimeo, a[class*="soc-"].soc-vimeo:hover {
+    	color: #51b5e7;
+    	border-color: #51b5e7;
+    }
+    
+    a.color-icon.soc-dailymotion, a[class*="soc-"].soc-dailymotion:hover {
+    	color: #004e72;
+    	border-color: #004e72;
+    }
+    
+    a.color-icon.soc-vine, a[class*="soc-"].soc-vine:hover {
+    	color: #00b389;
+    	border-color: #00b389;
+    }
+    
+    a.color-icon.soc-flickr, a[class*="soc-"].soc-flickr:hover {
+    	color: #0062dd;
+    	border-color: #0062dd;
+    }
+    
+    a.color-icon.soc-500px, a[class*="soc-"].soc-500px:hover {
+    	color: #58a9de;
+    	border-color: #58a9de;
+    }
+    
+    a.color-icon.soc-instagram, a[class*="soc-"].soc-instagram:hover {
+    	color: #9c7c6e;
+    	border-color: #9c7c6e;
+    }
+    
+    a.color-icon.soc-wordpress, a[class*="soc-"].soc-wordpress:hover {
+    	color: #464646;
+    	border-color: #464646;
+    }
+    
+    a.color-icon.soc-tumblr, a[class*="soc-"].soc-tumblr:hover {
+    	color: #45556c;
+    	border-color: #45556c;
+    }
+    
+    a.color-icon.soc-blogger, a[class*="soc-"].soc-blogger:hover {
+    	color: #ec661c;
+    	border-color: #ec661c;
+    }
+    
+    a.color-icon.soc-technorati, a[class*="soc-"].soc-technorati:hover {
+    	color: #5cb030;
+    	border-color: #5cb030;
+    }
+    
+    a.color-icon.soc-reddit, a[class*="soc-"].soc-reddit:hover {
+    	color: #e74a1e;
+    	border-color: #e74a1e;
+    }
+    
+    a.color-icon.soc-dribbble, a[class*="soc-"].soc-dribbble:hover {
+    	color: #e84d88;
+    	border-color: #e84d88;
+    }
+    
+    a.color-icon.soc-stumbleupon, a[class*="soc-"].soc-stumbleupon:hover {
+    	color: #e64011;
+    	border-color: #e64011;
+    }
+    
+    a.color-icon.soc-digg, a[class*="soc-"].soc-digg:hover {
+    	color: #1d1d1b;
+    	border-color: #1d1d1b;
+    }
+    
+    a.color-icon.soc-envato, a[class*="soc-"].soc-envato:hover {
+    	color: #597c3a;
+    	border-color: #597c3a;
+    }
+    
+    a.color-icon.soc-behance, a[class*="soc-"].soc-behance:hover {
+    	color: #007eff;
+    	border-color: #007eff;
+    }
+    
+    a.color-icon.soc-delicious, a[class*="soc-"].soc-delicious:hover {
+    	color: #31a9ff;
+    	border-color: #31a9ff;
+    }
+    
+    a.color-icon.soc-deviantart, a[class*="soc-"].soc-deviantart:hover {
+    	color: #c5d200;
+    	border-color: #c5d200;
+    }
+    
+    a.color-icon.soc-forrst, a[class*="soc-"].soc-forrst:hover {
+    	color: #5b9a68;
+    	border-color: #5b9a68;
+    }
+    
+    a.color-icon.soc-play, a[class*="soc-"].soc-play:hover {
+    	color: #5acdbd;
+    	border-color: #5acdbd;
+    }
+    
+    a.color-icon.soc-zerply, a[class*="soc-"].soc-zerply:hover {
+    	color: #9dbc7a;
+    	border-color: #9dbc7a;
+    }
+    
+    a.color-icon.soc-wikipedia, a[class*="soc-"].soc-wikipedia:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-apple, a[class*="soc-"].soc-apple:hover {
+    	color: #b9bfc1;
+    	border-color: #b9bfc1;
+    }
+    
+    a.color-icon.soc-flattr, a[class*="soc-"].soc-flattr:hover {
+    	color: #f67c1a;
+    	border-color: #f67c1a;
+    }
+    
+    a.color-icon.soc-github, a[class*="soc-"].soc-github:hover {
+    	color: #221e1b;
+    	border-color: #221e1b;
+    }
+    
+    a.color-icon.soc-chimein, a[class*="soc-"].soc-chimein:hover {
+    	color: #888688;
+    	border-color: #888688;
+    }
+    
+    a.color-icon.soc-friendfeed, a[class*="soc-"].soc-friendfeed:hover {
+    	color: #2f72c4;
+    	border-color: #2f72c4;
+    }
+    
+    a.color-icon.soc-newsvine, a[class*="soc-"].soc-newsvine:hover {
+    	color: #075b2f;
+    	border-color: #075b2f;
+    }
+    
+    a.color-icon.soc-identica, a[class*="soc-"].soc-identica:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-bebo, a[class*="soc-"].soc-bebo:hover {
+    	color: #ef1011;
+    	border-color: #ef1011;
+    }
+    
+    a.color-icon.soc-zynga, a[class*="soc-"].soc-zynga:hover {
+    	color: #dc0606;
+    	border-color: #dc0606;
+    }
+    
+    a.color-icon.soc-steam, a[class*="soc-"].soc-steam:hover {
+    	color: #8f8d8a;
+    	border-color: #8f8d8a;
+    }
+    
+    a.color-icon.soc-xbox, a[class*="soc-"].soc-xbox:hover {
+    	color: #92c83e;
+    	border-color: #92c83e;
+    }
+    
+    a.color-icon.soc-windows, a[class*="soc-"].soc-windows:hover {
+    	color: #00bdf6;
+    	border-color: #00bdf6;
+    }
+    
+    a.color-icon.soc-outlook, a[class*="soc-"].soc-outlook:hover {
+    	color: #0072c6;
+    	border-color: #0072c6;
+    }
+    
+    a.color-icon.soc-coderwall, a[class*="soc-"].soc-coderwall:hover {
+    	color: #3e8dcc;
+    	border-color: #3e8dcc;
+    }
+    
+    a.color-icon.soc-tripadvisor, a[class*="soc-"].soc-tripadvisor:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-appnet, a[class*="soc-"].soc-appnet:hover {
+    	color: #494949;
+    	border-color: #494949;
+    }
+    
+    a.color-icon.soc-goodreads, a[class*="soc-"].soc-goodreads:hover {
+    	color: #1abc9c;
+    	border-color: #1abc9c;
+    }
+    
+    a.color-icon.soc-tripit, a[class*="soc-"].soc-tripit:hover {
+    	color: #1982c3;
+    	border-color: #1982c3;
+    }
+    
+    a.color-icon.soc-lanyrd, a[class*="soc-"].soc-lanyrd:hover {
+    	color: #3c80c9;
+    	border-color: #3c80c9;
+    }
+    
+    a.color-icon.soc-slideshare, a[class*="soc-"].soc-slideshare:hover {
+    	color: #4ba3a6;
+    	border-color: #4ba3a6;
+    }
+    
+    a.color-icon.soc-buffer, a[class*="soc-"].soc-buffer:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-rss, a[class*="soc-"].soc-rss:hover {
+    	color: #f26109;
+    	border-color: #f26109;
+    }
+    
+    a.color-icon.soc-vkontakte, a[class*="soc-"].soc-vkontakte:hover {
+    	color: #5a7fa6;
+    	border-color: #5a7fa6;
+    }
+    
+    a.color-icon.soc-disqus, a[class*="soc-"].soc-disqus:hover {
+    	color: #2e9fff;
+    	border-color: #2e9fff;
+    }
+    
+    a.color-icon.soc-houzz, a[class*="soc-"].soc-houzz:hover {
+    	color: #7cc04b;
+    	border-color: #7cc04b;
+    }
+    
+    a.color-icon.soc-mail, a[class*="soc-"].soc-mail:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-patreon, a[class*="soc-"].soc-patreon:hover {
+    	color: #e44727;
+    	border-color: #e44727;
+    }
+    
+    a.color-icon.soc-paypal, a[class*="soc-"].soc-paypal:hover {
+    	color: #009cde;
+    	border-color: #009cde;
+    }
+    
+    a.color-icon.soc-playstation, a[class*="soc-"].soc-playstation:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-smugmug, a[class*="soc-"].soc-smugmug:hover {
+    	color: #acfd32;
+    	border-color: #acfd32;
+    }
+    
+    a.color-icon.soc-swarm, a[class*="soc-"].soc-swarm:hover {
+    	color: #fc9d3c;
+    	border-color: #fc9d3c;
+    }
+    
+    a.color-icon.soc-triplej, a[class*="soc-"].soc-triplej:hover {
+    	color: #e53531;
+    	border-color: #e53531;
+    }
+    
+    a.color-icon.soc-yammer, a[class*="soc-"].soc-yammer:hover {
+    	color: #1175c4;
+    	border-color: #1175c4;
+    }
+    
+    a.color-icon.soc-stackoverflow, a[class*="soc-"].soc-stackoverflow:hover {
+    	color: #fd9827;
+    	border-color: #fd9827;
+    }
+    
+    a.color-icon.soc-drupal, a[class*="soc-"].soc-drupal:hover {
+    	color: #00598e;
+    	border-color: #00598e;
+    }
+    
+    a.color-icon.soc-odnoklassniki, a[class*="soc-"].soc-odnoklassniki:hover {
+    	color: #f48420;
+    	border-color: #f48420;
+    }
+    
+    a.color-icon.soc-android, a[class*="soc-"].soc-android:hover {
+    	color: #8ec047;
+    	border-color: #8ec047;
+    }
+    
+    a.color-icon.soc-meetup, a[class*="soc-"].soc-meetup:hover {
+    	color: #e2373c;
+    	border-color: #e2373c;
+    }
+    
+    a.color-icon.soc-persona, a[class*="soc-"].soc-persona:hover {
+    	color: #e6753d;
+    	border-color: #e6753d;
+    }
+    
+    a.color-icon.soc-amazon, a[class*="soc-"].soc-amazon:hover {
+    	color: #ff9900;
+    	border-color: #ff9900;
+    }
+    
+    a.color-icon.soc-ello, a[class*="soc-"].soc-ello:hover {
+    	color: #000000;
+    	border-color: #000000;
+    }
+    
+    a.color-icon.soc-mixcloud, a[class*="soc-"].soc-mixcloud:hover {
+    	color: #314359;
+    	border-color: #314359;
+    }
+    
+    a.color-icon.soc-8tracks, a[class*="soc-"].soc-8tracks:hover {
+    	color: #122c4b;
+    	border-color: #122c4b;
+    }
+    
+    a.color-icon.soc-twitch, a[class*="soc-"].soc-twitch:hover {
+    	color: #6441a5;
+    	border-color: #6441a5;
+    }
+    
+    a.color-icon.soc-airbnb, a[class*="soc-"].soc-airbnb:hover {
+    	color: #ff5a5f;
+    	border-color: #ff5a5f;
+    }
+    
+    a.color-icon.soc-pocket, a[class*="soc-"].soc-pocket:hover {
+    	color: #ed4055;
+    	border-color: #ed4055;
+    }
+    
+    /*corporate background colors*/
+    .color-bg-icon {
+    	color: #ffffff;
+    }
+    
+    .color-bg-icon.soc-twitter, a.soc-twitter.bg-icon:hover, .soc-twitter.color-icon.border-icon:hover {
+    	background-color: #00abef;
+    }
+    
+    .color-bg-icon.soc-facebook, a.soc-facebook.bg-icon:hover, .soc-facebook.color-icon.border-icon:hover {
+    	background-color: #507cbe;
+    }
+    
+    .color-bg-icon.soc-google, a.soc-google.bg-icon:hover, .soc-google.color-icon.border-icon:hover {
+    	background-color: #d93e2d;
+    }
+    
+    .color-bg-icon.soc-pinterest, a.soc-pinterest.bg-icon:hover, .soc-pinterest.color-icon.border-icon:hover {
+    	background-color: #c92619;
+    }
+    
+    .color-bg-icon.soc-foursquare, a.soc-foursquare.bg-icon:hover, .soc-foursquare.color-icon.border-icon:hover {
+    	background-color: #23b7e0;
+    }
+    
+    .color-bg-icon.soc-yahoo, a.soc-yahoo.bg-icon:hover, .soc-yahoo.color-icon.border-icon:hover {
+    	background-color: #6e2a85;
+    }
+    
+    .color-bg-icon.soc-skype, a.soc-skype.bg-icon:hover, .soc-skype.color-icon.border-icon:hover {
+    	background-color: #28abe3;
+    }
+    
+    .color-bg-icon.soc-yelp, a.soc-yelp.bg-icon:hover, .soc-yelp.color-icon.border-icon:hover {
+    	background-color: #c83218;
+    }
+    
+    .color-bg-icon.soc-feedburner, a.soc-feedburner.bg-icon:hover, .soc-feedburner.color-icon.border-icon:hover {
+    	background-color: #ffcc00;
+    }
+    
+    .color-bg-icon.soc-linkedin, a.soc-linkedin.bg-icon:hover, .soc-linkedin.color-icon.border-icon:hover {
+    	background-color: #3371b7;
+    }
+    
+    .color-bg-icon.soc-viadeo, a.soc-viadeo.bg-icon:hover, .soc-viadeo.color-icon.border-icon:hover {
+    	background-color: #e4a000;
+    }
+    
+    .color-bg-icon.soc-xing, a.soc-xing.bg-icon:hover, .soc-xing.color-icon.border-icon:hover {
+    	background-color: #005a60;
+    }
+    
+    .color-bg-icon.soc-myspace, a.soc-myspace.bg-icon:hover, .soc-myspace.color-icon.border-icon:hover {
+    	background-color: #323232;
+    }
+    
+    .color-bg-icon.soc-soundcloud, a.soc-soundcloud.bg-icon:hover, .soc-soundcloud.color-icon.border-icon:hover {
+    	background-color: #fe3801;
+    }
+    
+    .color-bg-icon.soc-spotify, a.soc-spotify.bg-icon:hover, .soc-spotify.color-icon.border-icon:hover {
+    	background-color: #7bb342;
+    }
+    
+    .color-bg-icon.soc-grooveshark, a.soc-grooveshark.bg-icon:hover, .soc-grooveshark.color-icon.border-icon:hover {
+    	background-color: #f67e03;
+    }
+    
+    .color-bg-icon.soc-lastfm, a.soc-lastfm.bg-icon:hover, .soc-lastfm.color-icon.border-icon:hover {
+    	background-color: #d41316;
+    }
+    
+    .color-bg-icon.soc-youtube, a.soc-youtube.bg-icon:hover, .soc-youtube.color-icon.border-icon:hover {
+    	background-color: #d12121;
+    }
+    
+    .color-bg-icon.soc-vimeo, a.soc-vimeo.bg-icon:hover, .soc-vimeo.color-icon.border-icon:hover {
+    	background-color: #51b5e7;
+    }
+    
+    .color-bg-icon.soc-dailymotion, a.soc-dailymotion.bg-icon:hover, .soc-dailymotion.color-icon.border-icon:hover {
+    	background-color: #004e72;
+    }
+    
+    .color-bg-icon.soc-vine, a.soc-vine.bg-icon:hover, .soc-vine.color-icon.border-icon:hover {
+    	background-color: #00b389;
+    }
+    
+    .color-bg-icon.soc-flickr, a.soc-flickr.bg-icon:hover, .soc-flickr.color-icon.border-icon:hover {
+    	background-color: #0062dd;
+    }
+    
+    .color-bg-icon.soc-500px, a.soc-500px.bg-icon:hover, .soc-500px.color-icon.border-icon:hover {
+    	background-color: #58a9de;
+    }
+    
+    .color-bg-icon.soc-instagram, a.soc-instagram.bg-icon:hover, .soc-instagram.color-icon.border-icon:hover {
+    	background-color: #9c7c6e;
+    }
+    
+    .color-bg-icon.soc-wordpress, a.soc-wordpress.bg-icon:hover, .soc-wordpress.color-icon.border-icon:hover {
+    	background-color: #464646;
+    }
+    
+    .color-bg-icon.soc-tumblr, a.soc-tumblr.bg-icon:hover, .soc-tumblr.color-icon.border-icon:hover {
+    	background-color: #45556c;
+    }
+    
+    .color-bg-icon.soc-blogger, a.soc-blogger.bg-icon:hover, .soc-blogger.color-icon.border-icon:hover {
+    	background-color: #ec661c;
+    }
+    
+    .color-bg-icon.soc-technorati, a.soc-technorati.bg-icon:hover, .soc-technorati.color-icon.border-icon:hover {
+    	background-color: #5cb030;
+    }
+    
+    .color-bg-icon.soc-reddit, a.soc-reddit.bg-icon:hover, .soc-reddit.color-icon.border-icon:hover {
+    	background-color: #e74a1e;
+    }
+    
+    .color-bg-icon.soc-dribbble, a.soc-dribbble.bg-icon:hover, .soc-dribbble.color-icon.border-icon:hover {
+    	background-color: #e84d88;
+    }
+    
+    .color-bg-icon.soc-stumbleupon, a.soc-stumbleupon.bg-icon:hover, .soc-stumbleupon.color-icon.border-icon:hover {
+    	background-color: #e64011;
+    }
+    
+    .color-bg-icon.soc-digg, a.soc-digg.bg-icon:hover, .soc-digg.color-icon.border-icon:hover {
+    	background-color: #1d1d1b;
+    }
+    
+    .color-bg-icon.soc-envato, a.soc-envato.bg-icon:hover, .soc-envato.color-icon.border-icon:hover {
+    	background-color: #597c3a;
+    }
+    
+    .color-bg-icon.soc-behance, a.soc-behance.bg-icon:hover, .soc-behance.color-icon.border-icon:hover {
+    	background-color: #007eff;
+    }
+    
+    .color-bg-icon.soc-delicious, a.soc-delicious.bg-icon:hover, .soc-delicious.color-icon.border-icon:hover {
+    	background-color: #31a9ff;
+    }
+    
+    .color-bg-icon.soc-deviantart, a.soc-deviantart.bg-icon:hover, .soc-deviantart.color-icon.border-icon:hover {
+    	background-color: #c5d200;
+    }
+    
+    .color-bg-icon.soc-forrst, a.soc-forrst.bg-icon:hover, .soc-forrst.color-icon.border-icon:hover {
+    	background-color: #5b9a68;
+    }
+    
+    .color-bg-icon.soc-play, a.soc-play.bg-icon:hover, .soc-play.color-icon.border-icon:hover {
+    	background-color: #5acdbd;
+    }
+    
+    .color-bg-icon.soc-zerply, a.soc-zerply.bg-icon:hover, .soc-zerply.color-icon.border-icon:hover {
+    	background-color: #9dbc7a;
+    }
+    
+    .color-bg-icon.soc-wikipedia, a.soc-wikipedia.bg-icon:hover, .soc-wikipedia.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-apple, a.soc-apple.bg-icon:hover, .soc-apple.color-icon.border-icon:hover {
+    	background-color: #b9bfc1;
+    }
+    
+    .color-bg-icon.soc-flattr, a.soc-flattr.bg-icon:hover, .soc-flattr.color-icon.border-icon:hover {
+    	background-color: #f67c1a;
+    }
+    
+    .color-bg-icon.soc-github, a.soc-github.bg-icon:hover, .soc-github.color-icon.border-icon:hover {
+    	background-color: #221e1b;
+    }
+    
+    .color-bg-icon.soc-chimein, a.soc-chimein.bg-icon:hover, .soc-chimein.color-icon.border-icon:hover {
+    	background-color: #888688;
+    }
+    
+    .color-bg-icon.soc-friendfeed, a.soc-friendfeed.bg-icon:hover, .soc-friendfeed.color-icon.border-icon:hover {
+    	background-color: #2f72c4;
+    }
+    
+    .color-bg-icon.soc-newsvine, a.soc-newsvine.bg-icon:hover, .soc-newsvine.color-icon.border-icon:hover {
+    	background-color: #075b2f;
+    }
+    
+    .color-bg-icon.soc-identica, a.soc-identica.bg-icon:hover, .soc-identica.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-bebo, a.soc-bebo.bg-icon:hover, .soc-bebo.color-icon.border-icon:hover {
+    	background-color: #ef1011;
+    }
+    
+    .color-bg-icon.soc-zynga, a.soc-zynga.bg-icon:hover, .soc-zynga.color-icon.border-icon:hover {
+    	background-color: #dc0606;
+    }
+    
+    .color-bg-icon.soc-steam, a.soc-steam.bg-icon:hover, .soc-steam.color-icon.border-icon:hover {
+    	background-color: #8f8d8a;
+    }
+    
+    .color-bg-icon.soc-xbox, a.soc-xbox.bg-icon:hover, .soc-xbox.color-icon.border-icon:hover {
+    	background-color: #92c83e;
+    }
+    
+    .color-bg-icon.soc-windows, a.soc-windows.bg-icon:hover, .soc-windows.color-icon.border-icon:hover {
+    	background-color: #00bdf6;
+    }
+    
+    .color-bg-icon.soc-outlook, a.soc-outlook.bg-icon:hover, .soc-outlook.color-icon.border-icon:hover {
+    	background-color: #0072c6;
+    }
+    
+    .color-bg-icon.soc-coderwall, a.soc-coderwall.bg-icon:hover, .soc-coderwall.color-icon.border-icon:hover {
+    	background-color: #3e8dcc;
+    }
+    
+    .color-bg-icon.soc-tripadvisor, a.soc-tripadvisor.bg-icon:hover, .soc-tripadvisor.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-appnet, a.soc-appnet.bg-icon:hover, .soc-appnet.color-icon.border-icon:hover {
+    	background-color: #494949;
+    }
+    
+    .color-bg-icon.soc-goodreads, a.soc-goodreads.bg-icon:hover, .soc-goodreads.color-icon.border-icon:hover {
+    	background-color: #1abc9c;
+    }
+    
+    .color-bg-icon.soc-tripit, a.soc-tripit.bg-icon:hover, .soc-tripit.color-icon.border-icon:hover {
+    	background-color: #1982c3;
+    }
+    
+    .color-bg-icon.soc-lanyrd, a.soc-lanyrd.bg-icon:hover, .soc-lanyrd.color-icon.border-icon:hover {
+    	background-color: #3c80c9;
+    }
+    
+    .color-bg-icon.soc-slideshare, a.soc-slideshare.bg-icon:hover, .soc-slideshare.color-icon.border-icon:hover {
+    	background-color: #4ba3a6;
+    }
+    
+    .color-bg-icon.soc-buffer, a.soc-buffer.bg-icon:hover, .soc-buffer.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-rss, a.soc-rss.bg-icon:hover, .soc-rss.color-icon.border-icon:hover {
+    	background-color: #f26109;
+    }
+    
+    .color-bg-icon.soc-vkontakte, a.soc-vkontakte.bg-icon:hover, .soc-vkontakte.color-icon.border-icon:hover {
+    	background-color: #5a7fa6;
+    }
+    
+    .color-bg-icon.soc-disqus, a.soc-disqus.bg-icon:hover, .soc-disqus.color-icon.border-icon:hover {
+    	background-color: #2e9fff;
+    }
+    
+    .color-bg-icon.soc-houzz, a.soc-houzz.bg-icon:hover, .soc-houzz.color-icon.border-icon:hover {
+    	background-color: #7cc04b;
+    }
+    
+    .color-bg-icon.soc-mail, a.soc-mail.bg-icon:hover, .soc-mail.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-patreon, a.soc-patreon.bg-icon:hover, .soc-patreon.color-icon.border-icon:hover {
+    	background-color: #e44727;
+    }
+    
+    .color-bg-icon.soc-paypal, a.soc-paypal.bg-icon:hover, .soc-paypal.color-icon.border-icon:hover {
+    	background-color: #009cde;
+    }
+    
+    .color-bg-icon.soc-playstation, a.soc-playstation.bg-icon:hover, .soc-playstation.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-smugmug, a.soc-smugmug.bg-icon:hover, .soc-smugmug.color-icon.border-icon:hover {
+    	background-color: #acfd32;
+    }
+    
+    .color-bg-icon.soc-swarm, a.soc-swarm.bg-icon:hover, .soc-swarm.color-icon.border-icon:hover {
+    	background-color: #fc9d3c;
+    }
+    
+    .color-bg-icon.soc-triplej, a.soc-triplej.bg-icon:hover, .soc-triplej.color-icon.border-icon:hover {
+    	background-color: #e53531;
+    }
+    
+    .color-bg-icon.soc-yammer, a.soc-yammer.bg-icon:hover, .soc-yammer.color-icon.border-icon:hover {
+    	background-color: #1175c4;
+    }
+    
+    .color-bg-icon.soc-stackoverflow, a.soc-stackoverflow.bg-icon:hover, .soc-stackoverflow.color-icon.border-icon:hover {
+    	background-color: #fd9827;
+    }
+    
+    .color-bg-icon.soc-drupal, a.soc-drupal.bg-icon:hover, .soc-drupal.color-icon.border-icon:hover {
+    	background-color: #00598e;
+    }
+    
+    .color-bg-icon.soc-odnoklassniki, a.soc-odnoklassniki.bg-icon:hover, .soc-odnoklassniki.color-icon.border-icon:hover {
+    	background-color: #f48420;
+    }
+    
+    .color-bg-icon.soc-android, a.soc-android.bg-icon:hover, .soc-android.color-icon.border-icon:hover {
+    	background-color: #8ec047;
+    }
+    
+    .color-bg-icon.soc-meetup, a.soc-meetup.bg-icon:hover, .soc-meetup.color-icon.border-icon:hover {
+    	background-color: #e2373c;
+    }
+    
+    .color-bg-icon.soc-persona, a.soc-persona.bg-icon:hover, .soc-persona.color-icon.border-icon:hover {
+    	background-color: #e6753d;
+    }
+    
+    .color-bg-icon.soc-amazon, a.soc-amazon.bg-icon:hover, .soc-amazon.color-icon.border-icon:hover {
+    	background-color: #ff9900;
+    }
+    
+    .color-bg-icon.soc-ello, a.soc-ello.bg-icon:hover, .soc-ello.color-icon.border-icon:hover {
+    	background-color: #000000;
+    }
+    
+    .color-bg-icon.soc-mixcloud, a.soc-mixcloud.bg-icon:hover, .soc-mixcloud.color-icon.border-icon:hover {
+    	background-color: #314359;
+    }
+    
+    .color-bg-icon.soc-8tracks, a.soc-8tracks.bg-icon:hover, .soc-8tracks.color-icon.border-icon:hover {
+    	background-color: #122c4b;
+    }
+    
+    .color-bg-icon.soc-twitch, a.soc-twitch.bg-icon:hover, .soc-twitch.color-icon.border-icon:hover {
+    	background-color: #6441a5;
+    }
+    
+    .color-bg-icon.soc-airbnb, a.soc-airbnb.bg-icon:hover, .soc-airbnb.color-icon.border-icon:hover {
+    	background-color: #ff5a5f;
+    }
+    
+    .color-bg-icon.soc-pocket, a.soc-pocket.bg-icon:hover, .soc-pocket.color-icon.border-icon:hover {
+    	background-color: #ed4055;
+    }
+    
+    a.social-icon {
+    	color: #737880;
+    }
+    
+    a.border-icon {
+    	border: 1px solid #737880;
+    	border-color: rgba(115, 120, 128, 0.4);
+    	padding: 11px 12px;
+    }
+    
+    a.bg-icon {
+    	color: #ffffff;
+    	background-color: #737880;
+    	padding: 12px 13px;
+    }
+    
+    a.social-icon.color-icon:hover {
+    	color: #323232;
+    }
+    
+    a.social-icon.bg-icon:hover {
+    	color: #ffffff;
+    }
+    
+    a.color-bg-icon {
+    	color: #ffffff;
+    	background-color: #323232;
+    	padding: 12px 13px;
+    }
+    
+    a.social-icon.color-bg-icon:hover {
+    	background-color: #f3f4f5;
+    }
+    
+    a.color-icon:hover {
+    	color: #323232;
+    }
+    
+    a.color-icon.border-icon:hover {
+    	color: #ffffff;
+    }
+     
+//}
+.demo-icon {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px 10px;
+}
+
+.demo-icon span {
+    display: block;
+}
+
+.demo-icon .name {
+    font-size: 1.01em;
+    font-weight: 700;
+}
+
+.demo-icon a[class*="soc-"] {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.social-icons-demo a[class*="soc-"] {
+    margin: 10px;
+    + a.social-icon {
+        margin-left: 10px;
+    }
+}
+.color-icon.bg-icon {
+    background-color: #f8f8f8;
+}

@@ -1,0 +1,4584 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: medix\n"
+"POT-Creation-Date: 2017-08-18 22:53+0700\n"
+"PO-Revision-Date: 2017-08-18 22:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Ooops!"
+msgstr ""
+
+#: 404.php:20
+msgid "Sory, page not found!"
+msgstr ""
+
+#: 404.php:22
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:31
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "Leave a Reply To %s"
+msgstr ""
+
+#: comments.php:33
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:34
+msgid "Send Message"
+msgstr ""
+
+#: comments.php:41
+msgid "FULL NAME"
+msgstr ""
+
+#: comments.php:46
+msgid "EMAIL ADDRESS"
+msgstr ""
+
+#: comments.php:50
+msgid "PHONE NUMBER"
+msgstr ""
+
+#: comments.php:53
+msgid "COMMENT..."
+msgstr ""
+
+#: comments.php:61
+#, php-format
+msgctxt "comments title"
+msgid "0 Comment "
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:12
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:12
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:16
+msgid "Full name"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:17
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:17
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:23
+msgid "Phone number"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:23
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:23
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:36
+#: inc/options/function.options.php:799 inc/options/function.options.php:862
+msgid "Date"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:31
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:31
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:45
+msgid "Time"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:40
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:40
+#: inc/elements/cms_message_box.php:32
+msgid "Message"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-1.temp.php:45
+#: flex-booking/frontend/fbs-list-layout/layout-2.temp.php:45
+msgid "Make an appointment"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:29
+#: userpress/default/form-register.php:25
+#: userpress/default/form-register.php:26
+msgid "Email"
+msgstr ""
+
+#: flex-booking/frontend/fbs-list-layout/layout-3.temp.php:73
+msgid "Appointment"
+msgstr ""
+
+#: flexAppointment/frontend/faBookedList.temp.php:3
+msgid "Available Appointments on"
+msgstr ""
+
+#: flexAppointment/frontend/faBookedList.temp.php:24
+msgid "UNAVAILABLE"
+msgstr ""
+
+#: flexAppointment/frontend/faBookedList.temp.php:31
+msgid "APPOINTMENT"
+msgstr ""
+
+#: functions.php:69
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:229
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:241
+msgctxt "Rochester font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:371
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:373 functions.php:382 functions.php:443 functions.php:456
+#: functions.php:469 functions.php:482 functions.php:492 functions.php:502
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:380
+msgid "Second Sidebar"
+msgstr ""
+
+#: functions.php:390
+msgid "Newsletter sidebar"
+msgstr ""
+
+#: functions.php:392
+msgid "Appears on page builder"
+msgstr ""
+
+#: functions.php:400
+msgid "Header top left Side"
+msgstr ""
+
+#: functions.php:402
+msgid "Appears on the top left of header"
+msgstr ""
+
+#: functions.php:409
+msgid "Header top right Side"
+msgstr ""
+
+#: functions.php:411
+msgid "Appears on the top right of header"
+msgstr ""
+
+#: functions.php:418
+msgid "Services Sidebar"
+msgstr ""
+
+#: functions.php:420
+msgid "Appears on services single sidebar"
+msgstr ""
+
+#: functions.php:428
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:430
+msgid "Appears in WooCommerce Archive page"
+msgstr ""
+
+#: functions.php:441
+#, php-format
+msgid "Footer Top Layout 1 - col %s"
+msgstr ""
+
+#: functions.php:454
+#, php-format
+msgid "Footer Top Layout 2 - col %s"
+msgstr ""
+
+#: functions.php:467
+#, php-format
+msgid "Footer Top Layout 3 - col %s"
+msgstr ""
+
+#: functions.php:480
+msgid "Footer Bottom Sidebar"
+msgstr ""
+
+#: functions.php:490
+msgid "Footer Bottom layout 3 right"
+msgstr ""
+
+#: functions.php:500
+msgid "Footer Bottom layout 4 right"
+msgstr ""
+
+#: functions.php:524
+msgid "Comment navigation"
+msgstr ""
+
+#: functions.php:527
+msgid "Older Comments"
+msgstr ""
+
+#: functions.php:531
+msgid "Newer Comments"
+msgstr ""
+
+#: functions.php:618
+msgid "Previous"
+msgstr ""
+
+#: functions.php:635 inc/elements/cms_gallery_carousel.php:333
+msgid "Next"
+msgstr ""
+
+#: functions.php:673
+msgid "Previous Item"
+msgstr ""
+
+#: functions.php:688
+msgid "Next Item"
+msgstr ""
+
+#: functions.php:737 inc/template.functions.php:612
+#: inc/template.functions.php:645 inc/template.functions.php:699
+#: inc/widgets/news_tabs.php:173 inc/widgets/sidebar_recent_posts.php:79
+msgid "Posted"
+msgstr ""
+
+#: functions.php:749
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/elements/cms_accordion.php:6 inc/elements/cms_button.php:6
+#: inc/elements/cms_carousel.php:7 inc/elements/cms_client_carousel.php:6
+#: inc/elements/cms_contact_block.php:6 inc/elements/cms_countdown.php:7
+#: inc/elements/cms_department.php:6 inc/elements/cms_department2.php:6
+#: inc/elements/cms_events.php:6 inc/elements/cms_gallery_carousel.php:6
+#: inc/elements/cms_googlemap.php:6 inc/elements/cms_grid.php:7
+#: inc/elements/cms_grid_services.php:7
+#: inc/elements/cms_individual_socials.php:6
+#: inc/elements/cms_message_box.php:6 inc/elements/cms_opening_hours.php:6
+#: inc/elements/cms_pie_chars.php:6 inc/elements/cms_pricing.php:6
+#: inc/elements/cms_schedule_calendar.php:6 inc/elements/cms_socials.php:6
+#: inc/elements/cms_team.php:6 inc/elements/cms_teaser.php:6
+#: inc/elements/cms_testimonial_carousel.php:6
+#: inc/elements/cms_testimonial_single.php:6
+#: inc/elements/cms_title_header.php:6 inc/elements/cms_youtube.php:6
+#: inc/elements/flex-booking.php:8 inc/elements/testimonial_carousel.php:6
+#: inc/elements/zo_masonry.php:7
+msgid "CmsSuperheroes Shortcodes"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:12
+msgid "Shortcode layout"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:14 inc/elements/cms_carousel.php:320
+#: inc/elements/cms_carousel.php:328 inc/elements/cms_client_carousel.php:124
+#: inc/elements/cms_grid.php:85 inc/elements/cms_grid.php:93
+#: inc/elements/cms_grid_services.php:65 inc/elements/cms_grid_services.php:73
+#: inc/elements/cms_grid_services.php:81 inc/elements/cms_grid_services.php:89
+#: inc/elements/zo_masonry.php:85 inc/elements/zo_masonry.php:95
+#: inc/elements/zo_masonry.php:105 inc/elements/zo_masonry.php:113
+#: vc_params/cms_counter_single.php:19
+msgid "Template"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:18 inc/elements/cms_socials.php:12
+msgid "Options"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:20 inc/elements/cms_socials.php:14
+msgid "Enter values for plan option"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:23 inc/elements/cms_socials.php:17
+#: vc_params/cms_fancybox_single.php:97 vc_params/cms_fancybox_single.php:112
+#: vc_params/cms_fancybox_single.php:131 vc_params/cms_fancybox_single.php:142
+#: vc_params/cms_fancybox_single.php:157 vc_params/cms_fancybox_single.php:168
+#: vc_params/cms_fancybox_single.php:175 vc_params/cms_fancybox_single.php:183
+msgid "Option"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:29 inc/elements/cms_contact_block.php:47
+msgid "Icon class"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:35 inc/elements/cms_department.php:49
+msgid "Image"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:39
+msgid "Image Link"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:42
+msgid "Use for case image is not null"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:46 inc/elements/cms_button.php:11
+#: inc/elements/cms_button.php:15 inc/elements/cms_contact_block.php:40
+#: inc/elements/cms_department.php:10 inc/elements/cms_department2.php:10
+#: inc/elements/cms_message_box.php:25 inc/elements/cms_pie_chars.php:11
+#: inc/elements/cms_pricing.php:61 inc/elements/cms_teaser.php:252
+#: inc/elements/cms_youtube.php:16
+msgid "Title"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:52 inc/elements/cms_teaser.php:271
+#: inc/mega-menu/mega-menu.php:464
+msgid "Description"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:58
+msgid "Is Open"
+msgstr ""
+
+#: inc/elements/cms_accordion.php:67 inc/elements/cms_carousel.php:316
+#: inc/elements/cms_grid.php:81 inc/elements/cms_grid_services.php:77
+#: inc/elements/cms_socials.php:38 inc/elements/zo_masonry.php:82
+#: inc/mega-menu/mega-menu.php:297 inc/widgets/social_media.php:129
+#: vc_params/cms_fancybox_single.php:27
+msgid "Extra Class"
+msgstr ""
+
+#: inc/elements/cms_button.php:7 inc/elements/cms_individual_socials.php:7
+msgid "Show social from theme option"
+msgstr ""
+
+#: inc/elements/cms_button.php:19 inc/elements/cms_client_carousel.php:27
+#: inc/elements/cms_department.php:55 inc/elements/cms_pricing.php:143
+#: inc/elements/cms_teaser.php:277 inc/elements/cms_youtube.php:29
+#: vc_params/cms_fancybox_single.php:180
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/elements/cms_button.php:21 vc_params/cms_fancybox_single.php:182
+msgid "Add link to button."
+msgstr ""
+
+#: inc/elements/cms_button.php:25 inc/elements/cms_pricing.php:149
+#: inc/libs/class-tgm-plugin-activation.php:2640
+#: inc/widgets/social_media.php:109 inc/widgets/social_media.php:122
+msgid "Type"
+msgstr ""
+
+#: inc/elements/cms_button.php:38
+msgid "Is Dark"
+msgstr ""
+
+#: inc/elements/cms_button.php:53 inc/elements/cms_pie_chars.php:21
+msgid "Size"
+msgstr ""
+
+#: inc/elements/cms_button.php:61
+msgid "Select button size."
+msgstr ""
+
+#: inc/elements/cms_button.php:66
+msgid "Alignment"
+msgstr ""
+
+#: inc/elements/cms_button.php:78
+msgid "Set full width button?"
+msgstr ""
+
+#: inc/elements/cms_button.php:95
+msgid "Add icon"
+msgstr ""
+
+#: inc/elements/cms_button.php:104
+msgid "Icon Alignment"
+msgstr ""
+
+#: inc/elements/cms_button.php:121 inc/elements/cms_carousel.php:150
+#: inc/elements/cms_carousel.php:233 inc/elements/cms_gallery_carousel.php:107
+#: inc/elements/cms_gallery_carousel.php:190 inc/elements/cms_teaser.php:105
+#: vc_params/cms_fancybox_single.php:45
+msgid "Icon library"
+msgstr ""
+
+#: inc/elements/cms_button.php:123 inc/elements/cms_carousel.php:152
+#: inc/elements/cms_carousel.php:235 inc/elements/cms_gallery_carousel.php:109
+#: inc/elements/cms_gallery_carousel.php:192 inc/elements/cms_teaser.php:107
+#: vc_params/cms_fancybox_single.php:47
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/elements/cms_button.php:124 inc/elements/cms_carousel.php:153
+#: inc/elements/cms_carousel.php:236 inc/elements/cms_gallery_carousel.php:110
+#: inc/elements/cms_gallery_carousel.php:193 inc/elements/cms_teaser.php:108
+#: vc_params/cms_fancybox_single.php:55
+msgid "Glyphicons Icon"
+msgstr ""
+
+#: inc/elements/cms_button.php:125 inc/elements/cms_carousel.php:155
+#: inc/elements/cms_carousel.php:238 inc/elements/cms_gallery_carousel.php:112
+#: inc/elements/cms_gallery_carousel.php:195 inc/elements/cms_teaser.php:109
+msgid "RT Icon 2"
+msgstr ""
+
+#: inc/elements/cms_button.php:126 inc/elements/cms_carousel.php:154
+#: inc/elements/cms_carousel.php:237 inc/elements/cms_gallery_carousel.php:111
+#: inc/elements/cms_gallery_carousel.php:194 inc/elements/cms_teaser.php:110
+#: vc_params/cms_fancybox_single.php:53
+msgid "P7 Stroke"
+msgstr ""
+
+#: inc/elements/cms_button.php:129 inc/elements/cms_carousel.php:158
+#: inc/elements/cms_carousel.php:241 inc/elements/cms_gallery_carousel.php:115
+#: inc/elements/cms_gallery_carousel.php:198 inc/elements/cms_teaser.php:113
+#: vc_params/cms_fancybox_single.php:58
+msgid "Select icon library."
+msgstr ""
+
+#: inc/elements/cms_button.php:139 inc/elements/cms_button.php:156
+#: inc/elements/cms_button.php:172 inc/elements/cms_button.php:188
+#: inc/elements/cms_teaser.php:117 inc/elements/cms_teaser.php:134
+#: inc/elements/cms_teaser.php:150 inc/elements/cms_teaser.php:166
+#: vc_params/cms_fancybox_single.php:71
+msgid "Icon Item"
+msgstr ""
+
+#: inc/elements/cms_button.php:151 inc/elements/cms_button.php:168
+#: inc/elements/cms_button.php:184 inc/elements/cms_button.php:200
+#: inc/elements/cms_carousel.php:175 inc/elements/cms_carousel.php:192
+#: inc/elements/cms_carousel.php:209 inc/elements/cms_carousel.php:226
+#: inc/elements/cms_carousel.php:258 inc/elements/cms_carousel.php:275
+#: inc/elements/cms_carousel.php:292 inc/elements/cms_carousel.php:309
+#: inc/elements/cms_gallery_carousel.php:132
+#: inc/elements/cms_gallery_carousel.php:149
+#: inc/elements/cms_gallery_carousel.php:166
+#: inc/elements/cms_gallery_carousel.php:183
+#: inc/elements/cms_gallery_carousel.php:215
+#: inc/elements/cms_gallery_carousel.php:232
+#: inc/elements/cms_gallery_carousel.php:249
+#: inc/elements/cms_gallery_carousel.php:266 inc/elements/cms_teaser.php:129
+#: inc/elements/cms_teaser.php:146 inc/elements/cms_teaser.php:162
+#: inc/elements/cms_teaser.php:178 vc_params/cms_fancybox_single.php:83
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/elements/cms_button.php:205 inc/elements/cms_button.php:208
+msgid "Class"
+msgstr ""
+
+#: inc/elements/cms_button.php:212 inc/elements/cms_client_carousel.php:128
+#: inc/elements/cms_contact_block.php:57 inc/elements/cms_department.php:66
+#: inc/elements/cms_department2.php:27 inc/elements/cms_events.php:12
+#: inc/elements/cms_message_box.php:38 inc/elements/cms_opening_hours.php:39
+#: inc/elements/cms_pie_chars.php:51 inc/elements/cms_pricing.php:162
+#: inc/elements/cms_team.php:68 inc/elements/cms_teaser.php:329
+#: inc/elements/cms_testimonial_single.php:37
+#: inc/elements/cms_title_header.php:75 inc/elements/cms_youtube.php:46
+#: vc_params/cms_fancybox_single.php:196
+msgid "CSS box"
+msgstr ""
+
+#: inc/elements/cms_button.php:214 inc/elements/cms_client_carousel.php:130
+#: inc/elements/cms_contact_block.php:59 inc/elements/cms_department.php:68
+#: inc/elements/cms_department2.php:29 inc/elements/cms_events.php:14
+#: inc/elements/cms_message_box.php:40 inc/elements/cms_opening_hours.php:41
+#: inc/elements/cms_pie_chars.php:53 inc/elements/cms_pricing.php:164
+#: inc/elements/cms_team.php:70 inc/elements/cms_teaser.php:331
+#: inc/elements/cms_testimonial_single.php:39
+#: inc/elements/cms_title_header.php:77 inc/elements/cms_youtube.php:48
+#: vc_params/cms_fancybox_single.php:198 vc_params/vc_row.php:67
+#: vc_params/vc_row.php:74
+msgid "Design Options"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:4
+msgid "CMS Carousel"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:11 inc/elements/cms_department2.php:16
+#: inc/elements/cms_gallery_carousel.php:11 inc/elements/cms_grid.php:11
+#: inc/elements/cms_grid_services.php:11 inc/elements/cms_team.php:11
+#: inc/elements/zo_masonry.php:11
+#: inc/libs/class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:17 inc/elements/cms_department2.php:22
+#: inc/elements/cms_gallery_carousel.php:17 inc/elements/cms_grid.php:17
+#: inc/elements/cms_grid_services.php:17 inc/elements/cms_team.php:17
+#: inc/elements/zo_masonry.php:17
+msgid "Source Settings"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:21 inc/elements/cms_client_carousel.php:35
+#: inc/elements/cms_gallery_carousel.php:22
+#: inc/elements/cms_testimonial_carousel.php:76
+msgid "XSmall Devices"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:26 inc/elements/cms_carousel.php:35
+#: inc/elements/cms_carousel.php:44 inc/elements/cms_carousel.php:53
+#: inc/elements/cms_carousel.php:61 inc/elements/cms_carousel.php:71
+#: inc/elements/cms_carousel.php:81 inc/elements/cms_carousel.php:91
+#: inc/elements/cms_carousel.php:101 inc/elements/cms_carousel.php:111
+#: inc/elements/cms_carousel.php:123 inc/elements/cms_carousel.php:131
+#: inc/elements/cms_carousel.php:145 inc/elements/cms_carousel.php:159
+#: inc/elements/cms_carousel.php:176 inc/elements/cms_carousel.php:193
+#: inc/elements/cms_carousel.php:210 inc/elements/cms_carousel.php:227
+#: inc/elements/cms_carousel.php:242 inc/elements/cms_carousel.php:259
+#: inc/elements/cms_carousel.php:276 inc/elements/cms_carousel.php:293
+#: inc/elements/cms_carousel.php:310 inc/elements/cms_client_carousel.php:40
+#: inc/elements/cms_client_carousel.php:49
+#: inc/elements/cms_client_carousel.php:58
+#: inc/elements/cms_client_carousel.php:67
+#: inc/elements/cms_client_carousel.php:74
+#: inc/elements/cms_client_carousel.php:84
+#: inc/elements/cms_client_carousel.php:95
+#: inc/elements/cms_client_carousel.php:105
+#: inc/elements/cms_client_carousel.php:115
+#: inc/elements/cms_gallery_carousel.php:27
+#: inc/elements/cms_gallery_carousel.php:36
+#: inc/elements/cms_gallery_carousel.php:45
+#: inc/elements/cms_gallery_carousel.php:54
+#: inc/elements/cms_gallery_carousel.php:61
+#: inc/elements/cms_gallery_carousel.php:68
+#: inc/elements/cms_gallery_carousel.php:75
+#: inc/elements/cms_gallery_carousel.php:82
+#: inc/elements/cms_gallery_carousel.php:89
+#: inc/elements/cms_gallery_carousel.php:102
+#: inc/elements/cms_gallery_carousel.php:116
+#: inc/elements/cms_gallery_carousel.php:133
+#: inc/elements/cms_gallery_carousel.php:150
+#: inc/elements/cms_gallery_carousel.php:167
+#: inc/elements/cms_gallery_carousel.php:184
+#: inc/elements/cms_gallery_carousel.php:199
+#: inc/elements/cms_gallery_carousel.php:216
+#: inc/elements/cms_gallery_carousel.php:233
+#: inc/elements/cms_gallery_carousel.php:250
+#: inc/elements/cms_gallery_carousel.php:267
+#: inc/elements/cms_testimonial_carousel.php:81
+#: inc/elements/cms_testimonial_carousel.php:90
+#: inc/elements/cms_testimonial_carousel.php:99
+#: inc/elements/cms_testimonial_carousel.php:108
+#: inc/elements/cms_testimonial_carousel.php:115
+#: inc/elements/cms_testimonial_carousel.php:122
+#: inc/elements/cms_testimonial_carousel.php:129
+#: inc/elements/cms_testimonial_carousel.php:140
+#: inc/elements/cms_testimonial_carousel.php:147
+#: inc/elements/cms_testimonial_carousel.php:159
+#: inc/elements/cms_testimonial_carousel.php:166
+#: inc/elements/cms_testimonial_carousel.php:173
+#: inc/elements/cms_testimonial_carousel.php:184
+#: inc/elements/cms_testimonial_carousel.php:191
+#: inc/elements/cms_testimonial_carousel.php:199
+msgid "Carousel Settings"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:30 inc/elements/cms_client_carousel.php:44
+#: inc/elements/cms_gallery_carousel.php:31
+#: inc/elements/cms_testimonial_carousel.php:85
+msgid "Small Devices"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:39 inc/elements/cms_client_carousel.php:53
+#: inc/elements/cms_gallery_carousel.php:40
+#: inc/elements/cms_testimonial_carousel.php:94
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:48 inc/elements/cms_client_carousel.php:62
+#: inc/elements/cms_gallery_carousel.php:49
+#: inc/elements/cms_testimonial_carousel.php:103
+msgid "Large Devices"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:57 inc/elements/cms_client_carousel.php:71
+#: inc/elements/cms_gallery_carousel.php:58
+#: inc/elements/cms_testimonial_carousel.php:112
+msgid "Margin Items"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:65 inc/elements/cms_client_carousel.php:78
+#: inc/elements/cms_gallery_carousel.php:65
+#: inc/elements/cms_testimonial_carousel.php:119
+msgid "Loop Items"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:75
+#: inc/elements/cms_testimonial_carousel.php:126
+msgid "Mouse Drag"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:85 inc/elements/cms_client_carousel.php:89
+msgid "Show Nav"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:95 inc/elements/cms_client_carousel.php:99
+#: inc/elements/cms_gallery_carousel.php:79
+#: inc/elements/cms_testimonial_carousel.php:163
+msgid "Show Dots"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:105 inc/elements/cms_client_carousel.php:109
+#: inc/elements/cms_gallery_carousel.php:86
+#: inc/elements/cms_testimonial_carousel.php:170
+msgid "Auto Play"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:115
+#: inc/elements/cms_testimonial_carousel.php:177
+msgid "Auto Play TimeOut"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:127
+#: inc/elements/cms_testimonial_carousel.php:195
+msgid "Smart Speed"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:130
+#: inc/elements/cms_testimonial_carousel.php:198
+msgid "Speed scroll of each item"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:135
+#: inc/elements/cms_testimonial_carousel.php:133
+msgid "Pause On Hover"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:163 inc/elements/cms_carousel.php:180
+#: inc/elements/cms_carousel.php:197 inc/elements/cms_carousel.php:214
+#: inc/elements/cms_carousel.php:263 inc/elements/cms_gallery_carousel.php:120
+#: inc/elements/cms_gallery_carousel.php:137
+#: inc/elements/cms_gallery_carousel.php:154
+#: inc/elements/cms_gallery_carousel.php:171
+#: inc/elements/cms_gallery_carousel.php:220
+msgid "Prev Icon"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:246 inc/elements/cms_carousel.php:280
+#: inc/elements/cms_carousel.php:297 inc/elements/cms_gallery_carousel.php:203
+#: inc/elements/cms_gallery_carousel.php:237
+#: inc/elements/cms_gallery_carousel.php:254
+msgid "Next Icon"
+msgstr ""
+
+#: inc/elements/cms_carousel.php:327 inc/elements/cms_client_carousel.php:123
+#: inc/elements/cms_grid.php:92 inc/elements/cms_grid_services.php:88
+#: inc/elements/zo_masonry.php:112 vc_params/cms_fancybox_single.php:38
+msgid "Shortcode Template"
+msgstr ""
+
+#: inc/elements/cms_client_carousel.php:7
+msgid "Add clients"
+msgstr ""
+
+#: inc/elements/cms_client_carousel.php:11
+msgid "Add your client"
+msgstr ""
+
+#: inc/elements/cms_client_carousel.php:15
+msgid "Client"
+msgstr ""
+
+#: inc/elements/cms_client_carousel.php:22
+#: vc_params/cms_fancybox_single.php:89
+msgid "Image Item"
+msgstr ""
+
+#: inc/elements/cms_client_carousel.php:31
+msgid "Client Item"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:7 inc/elements/cms_opening_hours.php:7
+msgid "Show contact information"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:11 inc/elements/cms_opening_hours.php:11
+#: inc/elements/cms_title_header.php:11
+msgid "Style"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:21 inc/elements/cms_pricing.php:46
+#: inc/elements/cms_title_header.php:22
+msgid "Is center?"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:30
+msgid "Add your contact info"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:34
+msgid "Jacksotts street 567, San Diego, California, USA"
+msgstr ""
+
+#: inc/elements/cms_contact_block.php:50
+msgid "fa fa-map-marker"
+msgstr ""
+
+#: inc/elements/cms_countdown.php:4
+msgid "CMS Countdown"
+msgstr ""
+
+#: inc/elements/cms_countdown.php:11
+msgid "Date count down"
+msgstr ""
+
+#: inc/elements/cms_department.php:16
+msgid "Add department items"
+msgstr ""
+
+#: inc/elements/cms_department.php:20 inc/elements/cms_department.php:29
+msgid "Medical Center"
+msgstr ""
+
+#: inc/elements/cms_department.php:26
+msgid "Tab Title"
+msgstr ""
+
+#: inc/elements/cms_department.php:33 inc/elements/cms_title_header.php:31
+msgid "Title 1"
+msgstr ""
+
+#: inc/elements/cms_department.php:38 inc/elements/cms_title_header.php:53
+msgid "Title 2"
+msgstr ""
+
+#: inc/elements/cms_department.php:43
+msgid "Content text"
+msgstr ""
+
+#: inc/elements/cms_department.php:44
+#: inc/elements/cms_testimonial_carousel.php:53
+#: inc/elements/cms_testimonial_single.php:31
+#: inc/elements/testimonial_carousel.php:60
+msgid "Press double ENTER to get line-break"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:72
+#: inc/elements/cms_testimonial_carousel.php:144
+msgid "Show Next/Preview"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:94
+msgid "Image size"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:96
+msgid "Full"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:97
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:98
+msgid "Medium"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:99
+msgid "Large"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:273
+msgid "Enable filter"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:279
+#: inc/elements/cms_gallery_carousel.php:285
+#: inc/elements/cms_gallery_carousel.php:291
+msgid "Other Settings"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:283
+msgid "Center"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:289
+msgid "Overlapped nav"
+msgstr ""
+
+#: inc/elements/cms_gallery_carousel.php:332
+msgid "Prev"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:10
+msgid "API Key"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:13
+msgid ""
+"Enter you api key of map, get key from (https://console.developers.google."
+"com)"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:17 inc/options/function.options.php:257
+msgid "Address"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:20
+msgid "Enter address of Map"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:24
+msgid "Coordinate"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:27
+msgid "Enter coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:31
+msgid "Click Show Info window"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:34 inc/elements/cms_googlemap.php:141
+#: inc/elements/cms_googlemap.php:150 inc/elements/cms_googlemap.php:159
+#: inc/elements/cms_googlemap.php:168 inc/elements/cms_googlemap.php:177
+#: inc/elements/cms_googlemap.php:186 inc/elements/cms_googlemap.php:195
+msgid "Yes, please"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:36
+msgid "Click a marker and show info window (Default Show)."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:40
+msgid "Marker Coordinate"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:43
+msgid "Enter marker coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:47
+msgid "Marker Title"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:50
+msgid "Enter Title Info windows for marker"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:54
+msgid "Marker Description"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:57
+msgid "Enter Description Info windows for marker"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:61
+msgid "Marker Icon"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:64
+msgid "Select image icon for marker"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:68
+msgid "Marker List"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:71
+msgid ""
+"[{\"coordinate\":\"41.058846,-73.539423\",\"icon\":\"\",\"title\":\"title "
+"demo 1\",\"desc\":\"desc demo 1\"},{\"coordinate\":\"40.975699,-73.717636\","
+"\"icon\":\"\",\"title\":\"title demo 2\",\"desc\":\"desc demo 2\"},"
+"{\"coordinate\":\"41.082606,-73.469718\",\"icon\":\"\",\"title\":\"title "
+"demo 3\",\"desc\":\"desc demo 3\"}]"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:75
+msgid "Info Window Max Width"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:78
+msgid "Set max width for info window"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:82
+msgid "Map Type"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:90
+msgid "Select the map type."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:94
+msgid "Style Template"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:110
+msgid "Custom Template"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:113
+msgid "Get template from http://snazzymaps.com"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:117
+msgid "Zoom"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:120
+msgid "zoom level of map, default is 13"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:124
+msgid "Width"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:127
+msgid "Width of map without pixel, default is auto"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:131
+msgid "Height"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:134
+msgid "Height of map without pixel, default is 350px"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:138
+msgid "Scroll Wheel"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:143
+msgid ""
+"If false, disables scrollwheel zooming on the map. The scrollwheel is "
+"disable by default."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:147
+msgid "Pan Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:152
+msgid "Show or hide Pan control."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:156
+msgid "Zoom Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:161
+msgid "Show or hide Zoom Control."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:165
+msgid "Scale Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:170
+msgid "Show or hide Scale Control."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:174
+msgid "Map Type Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:179
+msgid "Show or hide Map Type Control."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:183
+msgid "Street View Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:188
+msgid "Show or hide Street View Control."
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:192
+msgid "Over View Map Control"
+msgstr ""
+
+#: inc/elements/cms_googlemap.php:197
+msgid "Show or hide Over View Map Control."
+msgstr ""
+
+#: inc/elements/cms_grid.php:4
+msgid "CMS Grid"
+msgstr ""
+
+#: inc/elements/cms_grid.php:21
+msgid "Layout Type"
+msgstr ""
+
+#: inc/elements/cms_grid.php:27 inc/elements/cms_grid.php:36
+#: inc/elements/cms_grid.php:45 inc/elements/cms_grid.php:54
+#: inc/elements/cms_grid.php:63 inc/elements/cms_grid.php:77
+#: inc/elements/cms_grid_services.php:27 inc/elements/cms_grid_services.php:36
+#: inc/elements/cms_grid_services.php:45 inc/elements/cms_grid_services.php:54
+#: inc/elements/cms_team.php:36 inc/elements/cms_team.php:45
+#: inc/elements/cms_team.php:54 inc/elements/cms_team.php:63
+#: inc/elements/zo_masonry.php:26 inc/elements/zo_masonry.php:35
+#: inc/elements/zo_masonry.php:44 inc/elements/zo_masonry.php:53
+#: inc/elements/zo_masonry.php:63 inc/elements/zo_masonry.php:70
+#: inc/elements/zo_masonry.php:78
+msgid "Grid Settings"
+msgstr ""
+
+#: inc/elements/cms_grid.php:31 inc/elements/cms_grid_services.php:22
+#: inc/elements/cms_team.php:31 inc/elements/zo_masonry.php:21
+msgid "Columns XS Devices"
+msgstr ""
+
+#: inc/elements/cms_grid.php:40 inc/elements/cms_grid_services.php:31
+#: inc/elements/cms_team.php:40 inc/elements/zo_masonry.php:30
+msgid "Columns SM Devices"
+msgstr ""
+
+#: inc/elements/cms_grid.php:49 inc/elements/cms_grid_services.php:40
+#: inc/elements/cms_team.php:49 inc/elements/zo_masonry.php:39
+msgid "Columns MD Devices"
+msgstr ""
+
+#: inc/elements/cms_grid.php:58 inc/elements/cms_grid_services.php:49
+#: inc/elements/cms_team.php:58 inc/elements/zo_masonry.php:48
+msgid "Columns LG Devices"
+msgstr ""
+
+#: inc/elements/cms_grid.php:67 inc/elements/zo_masonry.php:57
+msgid "Filter on Masonry"
+msgstr ""
+
+#: inc/elements/cms_grid_services.php:4
+msgid "CMS Grid Services"
+msgstr ""
+
+#: inc/elements/cms_grid_services.php:59 vc_params/cms_grid.php:6
+msgid "Show pagination"
+msgstr ""
+
+#: inc/elements/cms_grid_services.php:69 vc_params/cms_grid.php:75
+msgid "Description limit word"
+msgstr ""
+
+#: inc/elements/cms_grid_services.php:70
+msgid "Enter the number of word to display"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:11
+msgid "Select social"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:14 inc/widgets/social_media.php:102
+msgid "From Header Top Setting"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:15 inc/widgets/social_media.php:103
+msgid "From Header Setting"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:16 inc/widgets/social_media.php:104
+msgid "From Footer Top Layout 1"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:17 inc/widgets/social_media.php:105
+msgid "From Footer Top Layout 3"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:18 inc/widgets/social_media.php:106
+msgid "From Footer Bottom Layout 4"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:28 inc/widgets/social_media.php:111
+msgid "Color background icon"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:29 inc/widgets/social_media.php:112
+msgid "Color icon and background icon"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:30 inc/widgets/social_media.php:113
+msgid "Color icon"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:36
+msgid "Round"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:48 inc/widgets/social_media.php:124
+msgid "Layout 1 (Default)"
+msgstr ""
+
+#: inc/elements/cms_individual_socials.php:49 inc/widgets/social_media.php:125
+msgid "Layout 2 (vertical with title)"
+msgstr ""
+
+#: inc/elements/cms_message_box.php:11 inc/elements/cms_pricing.php:11
+#: inc/elements/cms_team.php:21 vc_params/cms_fancybox_single.php:21
+#: vc_params/cms_fancybox_single.php:31 vc_params/cms_fancybox_single.php:40
+#: vc_params/cms_grid.php:43
+msgid "Layout"
+msgstr ""
+
+#: inc/elements/cms_message_box.php:14
+msgid "Success"
+msgstr ""
+
+#: inc/elements/cms_message_box.php:15
+msgid "Info"
+msgstr ""
+
+#: inc/elements/cms_message_box.php:16
+msgid "Warning"
+msgstr ""
+
+#: inc/elements/cms_message_box.php:17
+msgid "Danger"
+msgstr ""
+
+#: inc/elements/cms_opening_hours.php:21 vc_templates/cms_opening_hours.php:20
+msgid "Monday – Friday"
+msgstr ""
+
+#: inc/elements/cms_opening_hours.php:27 vc_templates/cms_opening_hours.php:26
+msgid "Saturday"
+msgstr ""
+
+#: inc/elements/cms_opening_hours.php:33 vc_templates/cms_opening_hours.php:32
+msgid "Sunday"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:16
+msgid "Percent value"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:23
+msgid "Enter the width of chars (px)"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:27
+msgid "Line"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:29
+msgid "Enter the thick of track line (px)"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:33
+msgid "background color"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:39
+msgid "Track color"
+msgstr ""
+
+#: inc/elements/cms_pie_chars.php:45
+msgid "Speed"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:14 inc/mega-menu/mega-menu.php:264
+#: inc/options/function.options.php:202 inc/options/function.options.php:385
+msgid "Background Color"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:15
+msgid "Style 1"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:16
+msgid "Style 2"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:24 inc/elements/cms_teaser.php:29
+msgid "Background image"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:34 inc/elements/cms_teaser.php:40
+msgid "Background overlay color"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:73
+msgid "Title color"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:85
+msgid "Sub title"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:90
+msgid "Unit"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:97 woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:115
+msgid "Price"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:103
+msgid "Price color"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:115
+msgid "Features"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:117 inc/elements/cms_schedule_calendar.php:15
+msgid "Enter values for feature"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:120
+msgid "Feature"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:126
+msgid "Feature name"
+msgstr ""
+
+#: inc/elements/cms_pricing.php:132
+msgid "Removed"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:13
+msgid "Members"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:19
+msgid "Name"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:25
+msgid "Clinic"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:31
+msgid "Url"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:48
+msgid "Edit Calendar Table"
+msgstr ""
+
+#: inc/elements/cms_schedule_calendar.php:68
+msgid "Set Calendar For"
+msgstr ""
+
+#: inc/elements/cms_socials.php:23
+msgid "Social Link"
+msgstr ""
+
+#: inc/elements/cms_socials.php:28
+msgid "Icon class (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:12 inc/elements/cms_testimonial_carousel.php:11
+#: inc/elements/testimonial_carousel.php:11
+msgid "Layout Mode"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:52
+msgid "With border"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:68 inc/elements/cms_testimonial_carousel.php:59
+msgid "Background type"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:71
+msgid "White"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:72
+msgid "Gray light"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:73 inc/elements/cms_testimonial_carousel.php:64
+#: inc/options/meta-options.php:228
+msgid "Dark"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:74 inc/elements/cms_testimonial_carousel.php:65
+#: inc/elements/cms_youtube.php:40 inc/elements/testimonial_carousel.php:23
+#: vc_params/cms_counter_single.php:14
+msgid "Primary"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:75 inc/elements/cms_testimonial_carousel.php:66
+#: inc/elements/cms_youtube.php:39 inc/elements/testimonial_carousel.php:24
+#: vc_params/cms_counter_single.php:15
+msgid "Secondary"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:90
+msgid "Text right"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:182
+msgid "Icon size"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:185
+msgid "Size big"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:186
+msgid "Size normal"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:187
+msgid "Size small"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:194
+msgid "Icon color"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:200
+msgid "Icon border"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:218
+msgid "Icon round"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:237
+msgid "Icon background"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:257
+msgid "Title heading"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:294
+msgid "Button Type"
+msgstr ""
+
+#: inc/elements/cms_teaser.php:316
+msgid "Orther custom Link"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:7
+#: inc/elements/cms_testimonial_single.php:7
+#: inc/elements/testimonial_carousel.php:7
+msgid "Add clients testimonial"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:23
+#: inc/elements/testimonial_carousel.php:30
+msgid "Add your testimonial"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:27
+#: inc/elements/cms_testimonial_carousel.php:36
+#: inc/elements/cms_testimonial_single.php:20
+#: inc/elements/testimonial_carousel.php:34
+#: inc/elements/testimonial_carousel.php:49
+msgid "John Smith"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:33
+#: inc/elements/cms_testimonial_single.php:17
+#: inc/elements/testimonial_carousel.php:46
+msgid "Author name"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:40
+#: inc/elements/cms_testimonial_single.php:24
+#: inc/elements/testimonial_carousel.php:53
+msgid "Author Position"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:46
+#: inc/elements/cms_testimonial_single.php:11
+#: inc/elements/testimonial_carousel.php:40
+msgid "Author Image"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:52
+#: inc/elements/cms_testimonial_single.php:30
+#: inc/elements/testimonial_carousel.php:59
+msgid "Testimonial text"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:55
+#: inc/elements/cms_testimonial_single.php:33
+#: inc/elements/testimonial_carousel.php:62
+msgid ""
+"Donec euismod sem ac urna finibus, sit amet efficitur erat tem pus. Ut "
+"dapibus dictum turpis, vel faucibus erat posuere vitae icitur erat tem puna"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:61
+msgid "Apply for layout 3"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:63
+#: vc_params/vc_column_text.php:14
+msgid "None"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:71
+#: inc/elements/testimonial_carousel.php:65
+msgid "Testimonial Item"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:151
+msgid "Next/Preview Position"
+msgstr ""
+
+#: inc/elements/cms_testimonial_carousel.php:188
+msgid "Auto Height"
+msgstr ""
+
+#: inc/elements/cms_testimonial_single.php:26
+#: inc/elements/testimonial_carousel.php:55
+msgid "Project Manager"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:18
+msgid "Select style"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:36
+msgid "Title 1 color"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:42
+msgid "Title 1 font size (px)"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:47
+msgid "Title 1 line height"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:58
+msgid "Title 2 color"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:64
+msgid "Title 2 font size (px)"
+msgstr ""
+
+#: inc/elements/cms_title_header.php:69
+msgid "Title 2 line height"
+msgstr ""
+
+#: inc/elements/cms_youtube.php:10
+msgid "Youtube url"
+msgstr ""
+
+#: inc/elements/cms_youtube.php:22
+msgid "Sub Title"
+msgstr ""
+
+#: inc/elements/cms_youtube.php:37
+msgid "Background icon"
+msgstr ""
+
+#: inc/elements/flex-booking.php:4
+msgid "Flex Booking"
+msgstr ""
+
+#: inc/elements/flex-booking.php:6
+msgid "This short code will display appoitnment."
+msgstr ""
+
+#: inc/elements/flex-booking.php:12
+msgid "Chosses layout"
+msgstr ""
+
+#: inc/elements/testimonial_carousel.php:20
+msgid "Color Mode"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:4
+msgid "ZO Masonry"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:67
+msgid "Grid item margin"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:74
+msgid "Aspect ratio"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:75
+msgid "The ratio of width to height"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:89
+msgid "Show more"
+msgstr ""
+
+#: inc/elements/zo_masonry.php:99 vc_params/cms_grid.php:65
+msgid "Filter align center"
+msgstr ""
+
+#: inc/functions.php:44 inc/options/meta-options.php:226
+#: inc/template.functions.php:1203 vc_params/cms_counter_single.php:13
+#: vc_params/cms_grid.php:45
+msgid "Default"
+msgstr ""
+
+#: inc/header/header-layout1.php:34 inc/header/header-layout2.php:35
+#: inc/header/header-layout3.php:34 inc/header/header-layout4.php:35
+#: inc/header/header-layout5.php:36 inc/header/header-side.php:66
+msgid "Login"
+msgstr ""
+
+#: inc/header/header-layout1.php:35 inc/header/header-layout2.php:36
+#: inc/header/header-layout3.php:35 inc/header/header-layout4.php:36
+#: inc/header/header-layout5.php:37 inc/header/header-side.php:67
+msgid "Register"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:334
+#: inc/options/require.plugins.php:145
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:335
+#: inc/options/require.plugins.php:146
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:337
+#: inc/options/require.plugins.php:147
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:340
+#: inc/options/require.plugins.php:148
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:343
+#: inc/options/require.plugins.php:149
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:349
+#: inc/options/require.plugins.php:150
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:355
+#: inc/options/require.plugins.php:155
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:367
+#: inc/options/require.plugins.php:152
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:373
+#: inc/options/require.plugins.php:153
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:378
+#: inc/options/require.plugins.php:157
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:388
+#: inc/options/require.plugins.php:158
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:392
+#: inc/options/require.plugins.php:159
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+#: inc/libs/class-tgm-plugin-activation.php:920
+#: inc/libs/class-tgm-plugin-activation.php:2625
+#: inc/libs/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3250
+#: inc/options/require.plugins.php:160
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+#: inc/libs/class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1213
+#: inc/libs/class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2365
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2368
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2384
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2387
+msgid "External Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2390
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2407
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2411
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2413
+msgid "Active"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2419
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2422
+msgid "Requires Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2425
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2434
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2492
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2574
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2582
+msgid "Installed version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2602
+msgid "Available version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2625
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3600
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3600
+#: inc/libs/class-tgm-plugin-activation.php:3608
+msgid "Show Details"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3600
+#: inc/libs/class-tgm-plugin-activation.php:3608
+msgid "Hide Details"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3606
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3608
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:17
+msgid "Submenu Type"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:23
+msgid "Standard Dropdown"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:24
+msgid "2 columns dropdown"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:25
+msgid "3 columns dropdown"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:27
+msgid "4 columns dropdown"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:28
+msgid "5 columns dropdown"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:33
+msgid "Sub menu column width ( Example: 200)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:44
+msgid "Side of Dropdown Elements"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:52
+msgid "Auto drop"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:53
+msgid "Drop To Left Side"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:54
+msgid "Drop To Right Side"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:55
+msgid "Drop To Center"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:56
+msgid "Full width"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:70
+msgid "Widget Area"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:76
+msgid "Select Widget Area"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:89
+msgid "Group"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:98 inc/mega-menu/mega-menu.php:119
+#: inc/mega-menu/mega-menu.php:144 inc/widgets/medix_widget_post.php:131
+#: inc/widgets/medix_widget_post.php:137 inc/widgets/medix_widget_post.php:143
+#: inc/widgets/medix_widget_post.php:149 inc/widgets/social_media.php:119
+msgid "No"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:101 inc/mega-menu/mega-menu.php:122
+#: inc/mega-menu/mega-menu.php:145 inc/widgets/medix_widget_post.php:130
+#: inc/widgets/medix_widget_post.php:136 inc/widgets/medix_widget_post.php:142
+#: inc/widgets/medix_widget_post.php:148 inc/widgets/social_media.php:118
+msgid "Yes"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:114
+msgid "Is OnePage"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:137
+msgid "Hide title"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:158
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:184
+msgid "Click to browse icon"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:184
+msgid "Browse Icon"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:200
+msgid "DropDown Background Image"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:207
+msgid "Browse Image"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:273
+msgid "Icon Color"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:282
+msgid "Icon Font Size"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:369
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:373
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:386
+msgid "sub item"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:401
+msgid "Move up"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:414
+msgid "Move down"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:416 inc/mega-menu/mega-menu.php:418
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:427
+msgid "URL"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:434
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:440
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:447
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:452
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:458
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:466
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:474
+msgid "Move"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:475
+msgid "Up one"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:476
+msgid "Down one"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:479
+msgid "To the top"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:486
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:499
+msgid "Remove"
+msgstr ""
+
+#: inc/mega-menu/mega-menu.php:500
+msgid "Cancel"
+msgstr ""
+
+#: inc/options/function.options.php:130
+msgid "General"
+msgstr ""
+
+#: inc/options/function.options.php:134
+msgid "Body Background"
+msgstr ""
+
+#: inc/options/function.options.php:135
+msgid "Body background."
+msgstr ""
+
+#: inc/options/function.options.php:144
+msgid "Page loading"
+msgstr ""
+
+#: inc/options/function.options.php:145
+msgid "Enable page loading"
+msgstr ""
+
+#: inc/options/function.options.php:151
+msgid "Enable back to top button."
+msgstr ""
+
+#: inc/options/function.options.php:154
+msgid "Back To Top"
+msgstr ""
+
+#: inc/options/function.options.php:166 inc/options/meta-options.php:60
+msgid "Header"
+msgstr ""
+
+#: inc/options/function.options.php:170 inc/options/function.options.php:173
+msgid "Header side"
+msgstr ""
+
+#: inc/options/function.options.php:178 inc/options/function.options.php:646
+#: inc/options/function.options.php:785 inc/options/function.options.php:848
+#: inc/options/function.options.php:956 inc/options/function.options.php:982
+#: inc/options/function.options.php:1269 inc/options/function.options.php:1482
+#: inc/options/meta-options.php:66 inc/options/meta-options.php:118
+#: inc/options/meta-options.php:180 inc/options/meta-options.php:208
+msgid "Layouts"
+msgstr ""
+
+#: inc/options/function.options.php:179 inc/options/meta-options.php:67
+msgid "select a layout for header"
+msgstr ""
+
+#: inc/options/function.options.php:192
+msgid "Header full width"
+msgstr ""
+
+#: inc/options/function.options.php:195
+msgid "Full Width"
+msgstr ""
+
+#: inc/options/function.options.php:203
+msgid "Header background color"
+msgstr ""
+
+#: inc/options/function.options.php:210
+msgid "Background Image"
+msgstr ""
+
+#: inc/options/function.options.php:211
+msgid "Header background image."
+msgstr ""
+
+#: inc/options/function.options.php:221
+msgid "Header padding"
+msgstr ""
+
+#: inc/options/function.options.php:222 inc/options/function.options.php:620
+msgid "Padding top and bottom"
+msgstr ""
+
+#: inc/options/function.options.php:236
+msgid "Open hours title"
+msgstr ""
+
+#: inc/options/function.options.php:243
+msgid "Open hours text"
+msgstr ""
+
+#: inc/options/function.options.php:250 woocommerce/wc-template-hooks.php:143
+msgid "Phone"
+msgstr ""
+
+#: inc/options/function.options.php:264
+msgid "Show social"
+msgstr ""
+
+#: inc/options/function.options.php:267
+msgid "Hide social"
+msgstr ""
+
+#: inc/options/function.options.php:277 inc/options/function.options.php:346
+#: inc/options/function.options.php:427 inc/options/function.options.php:1425
+#: inc/options/function.options.php:1451 inc/options/function.options.php:1622
+msgid "Twitter"
+msgstr ""
+
+#: inc/options/function.options.php:278 inc/options/function.options.php:347
+#: inc/options/function.options.php:426 inc/options/function.options.php:1424
+#: inc/options/function.options.php:1450 inc/options/function.options.php:1621
+msgid "Facebook"
+msgstr ""
+
+#: inc/options/function.options.php:279 inc/options/function.options.php:348
+#: inc/options/function.options.php:428 inc/options/function.options.php:1426
+#: inc/options/function.options.php:1457 inc/options/function.options.php:1623
+msgid "Google"
+msgstr ""
+
+#: inc/options/function.options.php:282 inc/options/function.options.php:351
+#: inc/options/function.options.php:435 inc/options/function.options.php:1433
+#: inc/options/function.options.php:1460 inc/options/function.options.php:1630
+msgid "Instagram"
+msgstr ""
+
+#: inc/options/function.options.php:283 inc/options/function.options.php:352
+#: inc/options/function.options.php:429 inc/options/function.options.php:1427
+#: inc/options/function.options.php:1458 inc/options/function.options.php:1628
+#: inc/options/meta-options.php:305 inc/options/meta-options.php:321
+msgid "Youtube"
+msgstr ""
+
+#: inc/options/function.options.php:284 inc/options/function.options.php:353
+#: inc/options/function.options.php:433 inc/options/function.options.php:1431
+#: inc/options/function.options.php:1452 inc/options/function.options.php:1624
+#: inc/options/function.options.php:1776
+msgid "Linkedin"
+msgstr ""
+
+#: inc/options/function.options.php:285 inc/options/function.options.php:354
+#: inc/options/function.options.php:436 inc/options/function.options.php:1434
+#: inc/options/function.options.php:1461 inc/options/function.options.php:1631
+msgid "Skype"
+msgstr ""
+
+#: inc/options/function.options.php:286 inc/options/function.options.php:355
+#: inc/options/function.options.php:434 inc/options/function.options.php:1432
+#: inc/options/function.options.php:1453 inc/options/function.options.php:1625
+msgid "Pinterest"
+msgstr ""
+
+#: inc/options/function.options.php:287 inc/options/function.options.php:356
+#: inc/options/function.options.php:437 inc/options/function.options.php:1435
+#: inc/options/function.options.php:1462 inc/options/function.options.php:1632
+#: inc/options/meta-options.php:306 inc/options/meta-options.php:329
+msgid "Vimeo"
+msgstr ""
+
+#: inc/options/function.options.php:288 inc/options/function.options.php:357
+#: inc/options/function.options.php:438 inc/options/function.options.php:1436
+#: inc/options/function.options.php:1463 inc/options/function.options.php:1633
+msgid "Yelp"
+msgstr ""
+
+#: inc/options/function.options.php:289 inc/options/function.options.php:358
+#: inc/options/function.options.php:439 inc/options/function.options.php:1437
+#: inc/options/function.options.php:1464 inc/options/function.options.php:1634
+msgid "Tumblr"
+msgstr ""
+
+#: inc/options/function.options.php:290 inc/options/function.options.php:359
+#: inc/options/function.options.php:430 inc/options/function.options.php:1428
+#: inc/options/function.options.php:1459 inc/options/function.options.php:1629
+msgid "Rss"
+msgstr ""
+
+#: inc/options/function.options.php:291 inc/options/function.options.php:360
+#: inc/options/function.options.php:440 inc/options/function.options.php:1438
+#: inc/options/function.options.php:1465 inc/options/function.options.php:1635
+msgid "Behance"
+msgstr ""
+
+#: inc/options/function.options.php:292 inc/options/function.options.php:361
+#: inc/options/function.options.php:441 inc/options/function.options.php:1439
+#: inc/options/function.options.php:1466 inc/options/function.options.php:1636
+msgid "Dribbble"
+msgstr ""
+
+#: inc/options/function.options.php:298 inc/options/function.options.php:299
+#: inc/options/function.options.php:1559 inc/options/function.options.php:1560
+msgid "Gradient Background"
+msgstr ""
+
+#: inc/options/function.options.php:308 inc/options/function.options.php:1569
+msgid "Gradient background color option"
+msgstr ""
+
+#: inc/options/function.options.php:317
+msgid "Slide or Push effect (default is slide)"
+msgstr ""
+
+#: inc/options/function.options.php:320
+msgid "Slide or Push effect"
+msgstr ""
+
+#: inc/options/function.options.php:325 inc/options/function.options.php:328
+msgid "Show on right"
+msgstr ""
+
+#: inc/options/function.options.php:333 inc/options/function.options.php:336
+#: inc/options/function.options.php:1067
+msgid "Is dark"
+msgstr ""
+
+#: inc/options/function.options.php:372
+msgid "Header top"
+msgstr ""
+
+#: inc/options/function.options.php:376 inc/options/function.options.php:1261
+#: inc/options/meta-options.php:113 inc/options/meta-options.php:175
+msgid "Disable"
+msgstr ""
+
+#: inc/options/function.options.php:377
+msgid "Do not apply to header side"
+msgstr ""
+
+#: inc/options/function.options.php:386
+msgid "Header top background color"
+msgstr ""
+
+#: inc/options/function.options.php:395
+msgid "Text color"
+msgstr ""
+
+#: inc/options/function.options.php:402 inc/options/function.options.php:1409
+#: inc/options/function.options.php:1588 inc/options/meta-options.php:270
+msgid "Links Color"
+msgstr ""
+
+#: inc/options/function.options.php:403
+msgid "Select links color in header top"
+msgstr ""
+
+#: inc/options/function.options.php:412
+msgid "Register form Terms of use link"
+msgstr ""
+
+#: inc/options/function.options.php:413
+msgid "Enter the terms of use link"
+msgstr ""
+
+#: inc/options/function.options.php:453
+msgid "Logo"
+msgstr ""
+
+#: inc/options/function.options.php:457 inc/options/function.options.php:588
+#: inc/options/meta-options.php:242
+msgid "Select Logo"
+msgstr ""
+
+#: inc/options/function.options.php:458 inc/options/function.options.php:589
+#: inc/options/function.options.php:1322 inc/options/function.options.php:1502
+#: inc/options/meta-options.php:194 inc/options/meta-options.php:243
+msgid "Select an image file for your logo."
+msgstr ""
+
+#: inc/options/function.options.php:467
+msgid "Transparent Logo"
+msgstr ""
+
+#: inc/options/function.options.php:468
+msgid "Select an image file for transparent logo."
+msgstr ""
+
+#: inc/options/function.options.php:477 inc/options/function.options.php:599
+msgid "Dark Logo"
+msgstr ""
+
+#: inc/options/function.options.php:478 inc/options/function.options.php:600
+msgid "Select an image file for dark logo."
+msgstr ""
+
+#: inc/options/function.options.php:487 inc/options/function.options.php:1332
+#: inc/options/function.options.php:1512
+msgid "Set max height for logo."
+msgstr ""
+
+#: inc/options/function.options.php:492 inc/options/function.options.php:1337
+#: inc/options/function.options.php:1517
+msgid "Logo Max Height"
+msgstr ""
+
+#: inc/options/function.options.php:501
+msgid "Main menu"
+msgstr ""
+
+#: inc/options/function.options.php:505
+msgid "Enable mega menu."
+msgstr ""
+
+#: inc/options/function.options.php:508
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/options/function.options.php:515
+msgid "Link color"
+msgstr ""
+
+#: inc/options/function.options.php:528
+msgid "Current color"
+msgstr ""
+
+#: inc/options/function.options.php:539
+msgid "Menu item space"
+msgstr ""
+
+#: inc/options/function.options.php:540
+msgid "Number of px between menu item"
+msgstr ""
+
+#: inc/options/function.options.php:552 inc/options/function.options.php:555
+msgid "Show arrow down icon right"
+msgstr ""
+
+#: inc/options/function.options.php:559 inc/options/function.options.php:1112
+msgid "Typography"
+msgstr ""
+
+#: inc/options/function.options.php:577
+msgid "Menu Sticky"
+msgstr ""
+
+#: inc/options/function.options.php:581
+msgid "enable sticky mode for menu."
+msgstr ""
+
+#: inc/options/function.options.php:584
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/options/function.options.php:610
+msgid "Set max height for sticky logo."
+msgstr ""
+
+#: inc/options/function.options.php:615
+msgid "Sticky Logo Max Height"
+msgstr ""
+
+#: inc/options/function.options.php:619
+msgid "Sticky header padding"
+msgstr ""
+
+#: inc/options/function.options.php:641 inc/options/meta-options.php:105
+msgid "Page Title & BC"
+msgstr ""
+
+#: inc/options/function.options.php:647 inc/options/meta-options.php:119
+msgid "select a layout for page title"
+msgstr ""
+
+#: inc/options/function.options.php:660
+msgid "Is background overlay?"
+msgstr ""
+
+#: inc/options/function.options.php:668
+msgid "Background overlay"
+msgstr ""
+
+#: inc/options/function.options.php:676 inc/options/function.options.php:1358
+#: inc/options/function.options.php:1551 inc/options/function.options.php:1578
+msgid "Background"
+msgstr ""
+
+#: inc/options/function.options.php:677
+msgid "Page title background."
+msgstr ""
+
+#: inc/options/function.options.php:683
+msgid "Page title Typography"
+msgstr ""
+
+#: inc/options/function.options.php:684
+msgid "Page title typography."
+msgstr ""
+
+#: inc/options/function.options.php:695 inc/options/function.options.php:750
+#: inc/options/function.options.php:1367 inc/options/function.options.php:1604
+#: inc/options/meta-options.php:148
+msgid "Padding"
+msgstr ""
+
+#: inc/options/function.options.php:696
+msgid "Page title padding (top/bottom)."
+msgstr ""
+
+#: inc/options/function.options.php:714
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/options/function.options.php:718
+msgid "Breadcrumb Typography"
+msgstr ""
+
+#: inc/options/function.options.php:719
+msgid "Breadcrumb typography."
+msgstr ""
+
+#: inc/options/function.options.php:731
+msgid "Link Color"
+msgstr ""
+
+#: inc/options/function.options.php:733
+msgid "Select link color in breadcrumb"
+msgstr ""
+
+#: inc/options/function.options.php:746 inc/options/meta-options.php:143
+msgid "Content"
+msgstr ""
+
+#: inc/options/function.options.php:751 inc/options/meta-options.php:149
+msgid "Choose padding for content tag"
+msgstr ""
+
+#: inc/options/function.options.php:764
+msgid "Page"
+msgstr ""
+
+#: inc/options/function.options.php:769
+msgid "Show editor"
+msgstr ""
+
+#: inc/options/function.options.php:772
+msgid "Frontend editor"
+msgstr ""
+
+#: inc/options/function.options.php:779
+msgid "Archive"
+msgstr ""
+
+#: inc/options/function.options.php:786
+msgid "select a layout for archive, search, index..."
+msgstr ""
+
+#: inc/options/function.options.php:796 inc/options/function.options.php:859
+msgid "Show date time."
+msgstr ""
+
+#: inc/options/function.options.php:803 inc/options/function.options.php:866
+msgid "Show author."
+msgstr ""
+
+#: inc/options/function.options.php:806 inc/options/function.options.php:869
+msgid "Author"
+msgstr ""
+
+#: inc/options/function.options.php:810 inc/options/function.options.php:873
+msgid "Show categories."
+msgstr ""
+
+#: inc/options/function.options.php:813 inc/options/function.options.php:876
+#: single-gallery.php:135 single-gallery.php:264
+msgid "Categories"
+msgstr ""
+
+#: inc/options/function.options.php:817 inc/options/function.options.php:880
+#: inc/options/function.options.php:901
+msgid "Show tags."
+msgstr ""
+
+#: inc/options/function.options.php:820 inc/options/function.options.php:883
+#: inc/options/function.options.php:904
+msgid "Tags"
+msgstr ""
+
+#: inc/options/function.options.php:824 inc/options/function.options.php:887
+msgid "Show comment count."
+msgstr ""
+
+#: inc/options/function.options.php:827 inc/options/function.options.php:890
+msgid "Comment"
+msgstr ""
+
+#: inc/options/function.options.php:831
+msgid "Excerpt length enter by ( number of word )"
+msgstr ""
+
+#: inc/options/function.options.php:835
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/options/function.options.php:842
+msgid "Single"
+msgstr ""
+
+#: inc/options/function.options.php:849 inc/options/function.options.php:957
+msgid "select a layout for single..."
+msgstr ""
+
+#: inc/options/function.options.php:895
+msgid "ENTRY FOOTER"
+msgstr ""
+
+#: inc/options/function.options.php:908
+msgid "Show social sharing"
+msgstr ""
+
+#: inc/options/function.options.php:911
+msgid "Social sharing"
+msgstr ""
+
+#: inc/options/function.options.php:915
+msgid "COMMENT FORM"
+msgstr ""
+
+#: inc/options/function.options.php:921
+msgid "Show comment form"
+msgstr ""
+
+#: inc/options/function.options.php:924
+msgid "Comment form"
+msgstr ""
+
+#: inc/options/function.options.php:928
+msgid "POST NAVIGATION"
+msgstr ""
+
+#: inc/options/function.options.php:934
+msgid "Show post navigation"
+msgstr ""
+
+#: inc/options/function.options.php:937
+msgid "Post navigation"
+msgstr ""
+
+#: inc/options/function.options.php:950
+msgid "Single events"
+msgstr ""
+
+#: inc/options/function.options.php:976
+msgid "Gallery Archive"
+msgstr ""
+
+#: inc/options/function.options.php:983
+msgid "select a layout for gallery archive post type"
+msgstr ""
+
+#: inc/options/function.options.php:993 inc/options/function.options.php:1006
+msgid "Select gallery column"
+msgstr ""
+
+#: inc/options/function.options.php:996 inc/options/function.options.php:1009
+msgid "Gallery Columns"
+msgstr ""
+
+#: inc/options/function.options.php:998 inc/options/function.options.php:1011
+msgid "1 Columns"
+msgstr ""
+
+#: inc/options/function.options.php:999 inc/options/function.options.php:1012
+#: inc/options/function.options.php:1674 inc/options/function.options.php:1686
+msgid "2 Columns"
+msgstr ""
+
+#: inc/options/function.options.php:1000 inc/options/function.options.php:1013
+#: inc/options/function.options.php:1675 inc/options/function.options.php:1687
+msgid "3 Columns"
+msgstr ""
+
+#: inc/options/function.options.php:1014 inc/options/function.options.php:1688
+msgid "4 Columns"
+msgstr ""
+
+#: inc/options/function.options.php:1020
+msgid "Enter the number of word for display short desciption"
+msgstr ""
+
+#: inc/options/function.options.php:1023
+msgid "Number description word display"
+msgstr ""
+
+#: inc/options/function.options.php:1037
+msgid "Gallery Single"
+msgstr ""
+
+#: inc/options/function.options.php:1042 inc/options/meta-options.php:509
+msgid "Select gallery single layout"
+msgstr ""
+
+#: inc/options/function.options.php:1045 inc/options/meta-options.php:512
+msgid "Gallery Single layout"
+msgstr ""
+
+#: inc/options/function.options.php:1047 inc/options/meta-options.php:514
+msgid "Layout 1"
+msgstr ""
+
+#: inc/options/function.options.php:1048 inc/options/meta-options.php:515
+msgid "Layout 2"
+msgstr ""
+
+#: inc/options/function.options.php:1049 inc/options/meta-options.php:516
+msgid "Layout 3"
+msgstr ""
+
+#: inc/options/function.options.php:1063
+msgid "Styling"
+msgstr ""
+
+#: inc/options/function.options.php:1068
+msgid "Dark layout style"
+msgstr ""
+
+#: inc/options/function.options.php:1074 inc/options/meta-options.php:256
+msgid "Set primary color."
+msgstr ""
+
+#: inc/options/function.options.php:1077 inc/options/meta-options.php:259
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options/function.options.php:1081 inc/options/meta-options.php:262
+msgid "Set secondary color."
+msgstr ""
+
+#: inc/options/function.options.php:1084 inc/options/meta-options.php:265
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/options/function.options.php:1090
+msgid "Primary Links Color"
+msgstr ""
+
+#: inc/options/function.options.php:1091
+msgid "Select Primary Links Color Option"
+msgstr ""
+
+#: inc/options/function.options.php:1118
+msgid "Body Font"
+msgstr ""
+
+#: inc/options/function.options.php:1124 inc/options/function.options.php:1136
+#: inc/options/function.options.php:1148 inc/options/function.options.php:1160
+#: inc/options/function.options.php:1172 inc/options/function.options.php:1184
+#: inc/options/function.options.php:1196 inc/options/function.options.php:1219
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: inc/options/function.options.php:1129
+msgid "H1"
+msgstr ""
+
+#: inc/options/function.options.php:1141
+msgid "H2"
+msgstr ""
+
+#: inc/options/function.options.php:1153
+msgid "H3"
+msgstr ""
+
+#: inc/options/function.options.php:1165
+msgid "H4"
+msgstr ""
+
+#: inc/options/function.options.php:1177
+msgid "H5"
+msgstr ""
+
+#: inc/options/function.options.php:1189
+msgid "H6"
+msgstr ""
+
+#: inc/options/function.options.php:1206
+msgid "Extra Fonts"
+msgstr ""
+
+#: inc/options/function.options.php:1213
+msgid "Custom Font"
+msgstr ""
+
+#: inc/options/function.options.php:1234
+msgid "Selector 1"
+msgstr ""
+
+#: inc/options/function.options.php:1235
+msgid "add html tags ID or class (body,a,.class,#id)"
+msgstr ""
+
+#: inc/options/function.options.php:1249
+msgid "Footer"
+msgstr ""
+
+#: inc/options/function.options.php:1256
+msgid "Footer Top"
+msgstr ""
+
+#: inc/options/function.options.php:1262
+msgid "Disable footer top"
+msgstr ""
+
+#: inc/options/function.options.php:1270 inc/options/meta-options.php:181
+msgid "select a layout for footer top"
+msgstr ""
+
+#: inc/options/function.options.php:1283 inc/options/function.options.php:1296
+#: inc/options/function.options.php:1309
+msgid "Column"
+msgstr ""
+
+#: inc/options/function.options.php:1284 inc/options/function.options.php:1297
+#: inc/options/function.options.php:1310
+msgid "Select Footer Column"
+msgstr ""
+
+#: inc/options/function.options.php:1287 inc/options/function.options.php:1300
+#: inc/options/function.options.php:1313
+msgid "1"
+msgstr ""
+
+#: inc/options/function.options.php:1288 inc/options/function.options.php:1301
+#: inc/options/function.options.php:1314
+msgid "2"
+msgstr ""
+
+#: inc/options/function.options.php:1289 inc/options/function.options.php:1302
+#: inc/options/function.options.php:1315
+msgid "3"
+msgstr ""
+
+#: inc/options/function.options.php:1316
+msgid "4"
+msgstr ""
+
+#: inc/options/function.options.php:1321 inc/options/meta-options.php:193
+msgid "Select Footer top Logo"
+msgstr ""
+
+#: inc/options/function.options.php:1341
+msgid "Footer top logo url"
+msgstr ""
+
+#: inc/options/function.options.php:1342 inc/options/function.options.php:1522
+msgid "Enter the other url, if empty then use site home url"
+msgstr ""
+
+#: inc/options/function.options.php:1350
+msgid "Background color overlay"
+msgstr ""
+
+#: inc/options/function.options.php:1359
+msgid "Footer top background"
+msgstr ""
+
+#: inc/options/function.options.php:1368 inc/options/function.options.php:1605
+msgid "Footer top padding (top/bottom)."
+msgstr ""
+
+#: inc/options/function.options.php:1380
+msgid "Title color."
+msgstr ""
+
+#: inc/options/function.options.php:1383
+msgid "Title Color"
+msgstr ""
+
+#: inc/options/function.options.php:1388 inc/options/function.options.php:1597
+msgid "Text color."
+msgstr ""
+
+#: inc/options/function.options.php:1391 inc/options/function.options.php:1600
+msgid "Text Color"
+msgstr ""
+
+#: inc/options/function.options.php:1396 inc/options/function.options.php:1399
+msgid "Border color, Form control color"
+msgstr ""
+
+#: inc/options/function.options.php:1410 inc/options/function.options.php:1589
+#: inc/options/meta-options.php:271
+msgid "Select Links Color Option"
+msgstr ""
+
+#: inc/options/function.options.php:1476
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/options/function.options.php:1483 inc/options/meta-options.php:209
+msgid "select a layout for footer bottom"
+msgstr ""
+
+#: inc/options/function.options.php:1494
+msgid "Normal font"
+msgstr ""
+
+#: inc/options/function.options.php:1501
+msgid "Select Footer Bottom Logo"
+msgstr ""
+
+#: inc/options/function.options.php:1521
+msgid "Footer bottom logo url"
+msgstr ""
+
+#: inc/options/function.options.php:1531
+msgid "Footer bottom copyright text"
+msgstr ""
+
+#: inc/options/function.options.php:1532
+msgid "Input the html content"
+msgstr ""
+
+#: inc/options/function.options.php:1552 inc/options/function.options.php:1579
+msgid "Footer bottom background."
+msgstr ""
+
+#: inc/options/function.options.php:1652
+msgid "Woocommerces"
+msgstr ""
+
+#: inc/options/function.options.php:1658
+msgid "Shop catalog layout"
+msgstr ""
+
+#: inc/options/function.options.php:1659
+msgid "select a layout for catalog shop page"
+msgstr ""
+
+#: inc/options/function.options.php:1669 inc/options/function.options.php:1681
+msgid "Select catalog product column"
+msgstr ""
+
+#: inc/options/function.options.php:1672 inc/options/function.options.php:1684
+msgid "Products Columns"
+msgstr ""
+
+#: inc/options/function.options.php:1694
+msgid "Enter the number of products you want to show on catalog layout"
+msgstr ""
+
+#: inc/options/function.options.php:1697
+msgid "Number Product Per Page"
+msgstr ""
+
+#: inc/options/function.options.php:1702
+msgid "Product single layout"
+msgstr ""
+
+#: inc/options/function.options.php:1703
+msgid "select a layout for single product page"
+msgstr ""
+
+#: inc/options/function.options.php:1719
+msgid "Social Media"
+msgstr ""
+
+#: inc/options/function.options.php:1727
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/options/function.options.php:1734
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/options/function.options.php:1741
+msgid "Google Url"
+msgstr ""
+
+#: inc/options/function.options.php:1748
+msgid "Youtube Url"
+msgstr ""
+
+#: inc/options/function.options.php:1755
+msgid "Rss Url"
+msgstr ""
+
+#: inc/options/function.options.php:1762
+msgid "Instagram Url"
+msgstr ""
+
+#: inc/options/function.options.php:1769
+msgid "Skype Url"
+msgstr ""
+
+#: inc/options/function.options.php:1783
+msgid "Pinterest Url"
+msgstr ""
+
+#: inc/options/function.options.php:1790
+msgid "Vimeo Url"
+msgstr ""
+
+#: inc/options/function.options.php:1797
+msgid "Yelp Url"
+msgstr ""
+
+#: inc/options/function.options.php:1804
+msgid "Tumblr Url"
+msgstr ""
+
+#: inc/options/function.options.php:1811
+msgid "Behance Url"
+msgstr ""
+
+#: inc/options/function.options.php:1818
+msgid "Dribbble Url"
+msgstr ""
+
+#: inc/options/function.options.php:1833
+msgid "404 Background"
+msgstr ""
+
+#: inc/options/function.options.php:1856
+msgid "Optimal Core"
+msgstr ""
+
+#: inc/options/function.options.php:1860
+msgid "no minimize , generate css over time..."
+msgstr ""
+
+#: inc/options/function.options.php:1863
+msgid "Dev Mode (not recommended)"
+msgstr ""
+
+#: inc/options/meta-options.php:53
+msgid "Page Setting"
+msgstr ""
+
+#: inc/options/meta-options.php:80 inc/options/meta-options.php:83
+msgid "Header transparent"
+msgstr ""
+
+#: inc/options/meta-options.php:87 inc/options/meta-options.php:90
+msgid "Show header top"
+msgstr ""
+
+#: inc/options/meta-options.php:97
+msgid "Select Menu"
+msgstr ""
+
+#: inc/options/meta-options.php:98
+msgid "custom menu for current page"
+msgstr ""
+
+#: inc/options/meta-options.php:110
+msgid "Disable Page title for current page."
+msgstr ""
+
+#: inc/options/meta-options.php:136
+msgid "Custom Title"
+msgstr ""
+
+#: inc/options/meta-options.php:137
+msgid "Custom current page title."
+msgstr ""
+
+#: inc/options/meta-options.php:158 inc/options/meta-options.php:161
+msgid "Gray light background"
+msgstr ""
+
+#: inc/options/meta-options.php:167
+msgid "Footer top"
+msgstr ""
+
+#: inc/options/meta-options.php:172
+msgid "Disable footer top for current page."
+msgstr ""
+
+#: inc/options/meta-options.php:202
+msgid "Footer bottom"
+msgstr ""
+
+#: inc/options/meta-options.php:221
+msgid "Select Style"
+msgstr ""
+
+#: inc/options/meta-options.php:224
+msgid "Footer bottom style"
+msgstr ""
+
+#: inc/options/meta-options.php:227
+msgid "Light"
+msgstr ""
+
+#: inc/options/meta-options.php:237
+msgid "Custom"
+msgstr ""
+
+#: inc/options/meta-options.php:249
+msgid "Select sticky Logo"
+msgstr ""
+
+#: inc/options/meta-options.php:250
+msgid "Select an image file for your sticky logo."
+msgstr ""
+
+#: inc/options/meta-options.php:287
+msgid "Post Format"
+msgstr ""
+
+#: inc/options/meta-options.php:301
+msgid "Select Video Type"
+msgstr ""
+
+#: inc/options/meta-options.php:302
+msgid "Local video, Youtube, Vimeo"
+msgstr ""
+
+#: inc/options/meta-options.php:304
+msgid "Upload"
+msgstr ""
+
+#: inc/options/meta-options.php:314
+msgid "Local Video"
+msgstr ""
+
+#: inc/options/meta-options.php:315
+msgid "Upload video media using the WordPress native uploader"
+msgstr ""
+
+#: inc/options/meta-options.php:322
+msgid "Load video from Youtube."
+msgstr ""
+
+#: inc/options/meta-options.php:323
+msgid "https://youtu.be/iNJdPyoqt8U"
+msgstr ""
+
+#: inc/options/meta-options.php:330
+msgid "Load video from Vimeo."
+msgstr ""
+
+#: inc/options/meta-options.php:331
+msgid "https://vimeo.com/155673893"
+msgstr ""
+
+#: inc/options/meta-options.php:339
+msgid "Video Thumb"
+msgstr ""
+
+#: inc/options/meta-options.php:340
+msgid "Upload thumb media using the WordPress native uploader"
+msgstr ""
+
+#: inc/options/meta-options.php:348
+msgid "Audio Media"
+msgstr ""
+
+#: inc/options/meta-options.php:349
+msgid "Upload audio media using the WordPress native uploader"
+msgstr ""
+
+#: inc/options/meta-options.php:354
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: inc/options/meta-options.php:355
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: inc/options/meta-options.php:360
+msgid "Quote Title"
+msgstr ""
+
+#: inc/options/meta-options.php:361
+msgid "Quote title or quote name..."
+msgstr ""
+
+#: inc/options/meta-options.php:366
+msgid "Quote Sub Title"
+msgstr ""
+
+#: inc/options/meta-options.php:367
+msgid "Quote sub title or quote position..."
+msgstr ""
+
+#: inc/options/meta-options.php:372
+msgid "Quote Content"
+msgstr ""
+
+#: inc/options/meta-options.php:377
+msgid "Add/Edit Status image"
+msgstr ""
+
+#: inc/options/meta-options.php:378
+msgid "uploading new images using the WordPress native uploader"
+msgstr ""
+
+#: inc/options/meta-options.php:387
+msgid "Services Option"
+msgstr ""
+
+#: inc/options/meta-options.php:399
+msgid "Select an image icon"
+msgstr ""
+
+#: inc/options/meta-options.php:400
+msgid "Select an image icon file for this service."
+msgstr ""
+
+#: inc/options/meta-options.php:413
+msgid "Team Option"
+msgstr ""
+
+#: inc/options/meta-options.php:427 inc/widgets/social_media.php:100
+msgid "Position"
+msgstr ""
+
+#: inc/options/meta-options.php:428
+msgid "Enter the position for this team"
+msgstr ""
+
+#: inc/options/meta-options.php:433 inc/options/meta-options.php:549
+msgid "Social link 1"
+msgstr ""
+
+#: inc/options/meta-options.php:434 inc/options/meta-options.php:550
+msgid "Enter the social link 1"
+msgstr ""
+
+#: inc/options/meta-options.php:439 inc/options/meta-options.php:555
+msgid "Social icon class 1"
+msgstr ""
+
+#: inc/options/meta-options.php:440 inc/options/meta-options.php:556
+msgid "Enter the social icon class 1 (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/options/meta-options.php:445 inc/options/meta-options.php:561
+msgid "Social link 2"
+msgstr ""
+
+#: inc/options/meta-options.php:446 inc/options/meta-options.php:562
+msgid "Enter the social link 2"
+msgstr ""
+
+#: inc/options/meta-options.php:451 inc/options/meta-options.php:567
+msgid "Social icon class 2"
+msgstr ""
+
+#: inc/options/meta-options.php:452 inc/options/meta-options.php:568
+msgid "Enter the social icon class 2 (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/options/meta-options.php:457 inc/options/meta-options.php:573
+msgid "Social link 3"
+msgstr ""
+
+#: inc/options/meta-options.php:458 inc/options/meta-options.php:574
+msgid "Enter the social link 3"
+msgstr ""
+
+#: inc/options/meta-options.php:463 inc/options/meta-options.php:579
+msgid "Social icon class 3"
+msgstr ""
+
+#: inc/options/meta-options.php:464 inc/options/meta-options.php:580
+msgid "Enter the social icon class 3 (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/options/meta-options.php:469 inc/options/meta-options.php:585
+msgid "Social link 4"
+msgstr ""
+
+#: inc/options/meta-options.php:470 inc/options/meta-options.php:586
+msgid "Enter the social link 4"
+msgstr ""
+
+#: inc/options/meta-options.php:475 inc/options/meta-options.php:591
+msgid "Social icon class 4"
+msgstr ""
+
+#: inc/options/meta-options.php:476 inc/options/meta-options.php:592
+msgid "Enter the social icon class 4 (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/options/meta-options.php:481 inc/options/meta-options.php:597
+msgid "Social link 5"
+msgstr ""
+
+#: inc/options/meta-options.php:482 inc/options/meta-options.php:598
+msgid "Enter the social link 5"
+msgstr ""
+
+#: inc/options/meta-options.php:487 inc/options/meta-options.php:603
+msgid "Social icon class 5"
+msgstr ""
+
+#: inc/options/meta-options.php:488 inc/options/meta-options.php:604
+msgid "Enter the social icon class 5 (facebook,twitter,google...)"
+msgstr ""
+
+#: inc/options/meta-options.php:497
+msgid "Gallery Option"
+msgstr ""
+
+#: inc/options/meta-options.php:520
+msgid "CLIENT"
+msgstr ""
+
+#: inc/options/meta-options.php:526
+msgid "Select avatar"
+msgstr ""
+
+#: inc/options/meta-options.php:534
+msgid "Client name"
+msgstr ""
+
+#: inc/options/meta-options.php:539
+msgid "Client Position"
+msgstr ""
+
+#: inc/options/meta-options.php:544
+msgid "Client Description"
+msgstr ""
+
+#: inc/options/meta-options.php:607 single-gallery.php:160
+#: single-gallery.php:289
+msgid "Services"
+msgstr ""
+
+#: inc/options/meta-options.php:615
+msgid "Service contentt"
+msgstr ""
+
+#: inc/options/meta-options.php:616
+msgid "Subtitle text would go here."
+msgstr ""
+
+#: inc/options/require.plugins.php:23
+msgid "Cmssuperheroes"
+msgstr ""
+
+#: inc/options/require.plugins.php:29
+msgid "EF3-Framework"
+msgstr ""
+
+#: inc/options/require.plugins.php:35
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/options/require.plugins.php:41
+msgid "User press"
+msgstr ""
+
+#: inc/options/require.plugins.php:47
+msgid "Custom Post Type UI"
+msgstr ""
+
+#: inc/options/require.plugins.php:52
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/options/require.plugins.php:57
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/options/require.plugins.php:62
+msgid "WooCommerce Quantity Increment"
+msgstr ""
+
+#: inc/options/require.plugins.php:67
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/options/require.plugins.php:72
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/options/require.plugins.php:78
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/options/require.plugins.php:83
+msgid "Ef3 Import and Export"
+msgstr ""
+
+#: inc/options/require.plugins.php:89
+msgid "News Twitter"
+msgstr ""
+
+#: inc/options/require.plugins.php:95
+msgid "Newsletter"
+msgstr ""
+
+#: inc/options/require.plugins.php:100
+msgid "The Events Calendar"
+msgstr ""
+
+#: inc/options/require.plugins.php:105
+msgid "AccessPress Social Counter"
+msgstr ""
+
+#: inc/options/require.plugins.php:110
+msgid "Flickr Badges Widget"
+msgstr ""
+
+#: inc/options/require.plugins.php:115
+msgid "FsFlex Appointment Pro"
+msgstr ""
+
+#: inc/options/require.plugins.php:121
+msgid "FsFlex Booking"
+msgstr ""
+
+#: inc/options/require.plugins.php:151
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/options/require.plugins.php:154
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/options/require.plugins.php:156
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/options/require.plugins.php:161
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/template.functions.php:200
+msgid "Search keyword"
+msgstr ""
+
+#: inc/template.functions.php:310
+msgid "Blog"
+msgstr ""
+
+#: inc/template.functions.php:313
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template.functions.php:316
+msgid "404"
+msgstr ""
+
+#: inc/template.functions.php:319
+msgid "Single shop"
+msgstr ""
+
+#: inc/template.functions.php:321
+msgid "Single gallery"
+msgstr ""
+
+#: inc/template.functions.php:323
+msgid "Single team"
+msgstr ""
+
+#: inc/template.functions.php:325
+msgid "Single service"
+msgstr ""
+
+#: inc/template.functions.php:327
+msgid "Single event"
+msgstr ""
+
+#: inc/template.functions.php:329
+msgid "Single post"
+msgstr ""
+
+#: inc/template.functions.php:342
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template.functions.php:345
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template.functions.php:347
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template.functions.php:349
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template.functions.php:352
+msgid "Asides"
+msgstr ""
+
+#: inc/template.functions.php:354
+msgid "Galleries"
+msgstr ""
+
+#: inc/template.functions.php:356
+msgid "Images"
+msgstr ""
+
+#: inc/template.functions.php:358
+msgid "Videos"
+msgstr ""
+
+#: inc/template.functions.php:360
+msgid "Quotes"
+msgstr ""
+
+#: inc/template.functions.php:362
+msgid "Links"
+msgstr ""
+
+#: inc/template.functions.php:364
+msgid "Statuses"
+msgstr ""
+
+#: inc/template.functions.php:366
+msgid "Audios"
+msgstr ""
+
+#: inc/template.functions.php:368
+msgid "Chats"
+msgstr ""
+
+#: inc/template.functions.php:370
+msgid "Gallery"
+msgstr ""
+
+#: inc/template.functions.php:618 inc/template.functions.php:646
+#: inc/template.functions.php:704 inc/widgets/sidebar_recent_posts.php:81
+msgid "by"
+msgstr ""
+
+#: inc/template.functions.php:624 inc/template.functions.php:710
+#: inc/widgets/news_tabs.php:51
+msgid "Comments"
+msgstr ""
+
+#: inc/template.functions.php:680
+msgid "Tags: "
+msgstr ""
+
+#: inc/template.functions.php:1049 inc/template.functions.php:1064
+msgid "Check out this article"
+msgstr ""
+
+#: inc/template.functions.php:1204
+msgid "Left"
+msgstr ""
+
+#: inc/template.functions.php:1205
+msgid "Right"
+msgstr ""
+
+#: inc/template.functions.php:1206
+msgid "Vertical"
+msgstr ""
+
+#: inc/template.functions.php:1207
+msgid "Vertical with Text"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:9 inc/widgets/gallery_post.php:17
+msgid "Gallery Posts"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:9
+msgid "Gallery Posts Widget."
+msgstr ""
+
+#: inc/widgets/gallery_post.php:108 inc/widgets/news_tabs.php:90
+#: inc/widgets/news_tabs.php:138
+msgid "By"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:155 inc/widgets/list_services.php:86
+#: inc/widgets/medix_widget_post.php:116
+#: inc/widgets/medix_widget_recent_comment.php:51
+#: inc/widgets/news_tabs.php:195 inc/widgets/recent_post_v2.php:111
+#: inc/widgets/sidebar_recent_posts.php:123 inc/widgets/social_media.php:97
+#: inc/widgets/widget_text.php:110
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:159 inc/widgets/medix_widget_post.php:134
+#: inc/widgets/recent_post_v2.php:115
+msgid "Show date:"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:163 inc/widgets/recent_post_v2.php:119
+#: inc/widgets/sidebar_recent_posts.php:131
+msgid "Show Description:"
+msgstr ""
+
+#: inc/widgets/gallery_post.php:167 inc/widgets/list_services.php:90
+#: inc/widgets/recent_post_v2.php:123 inc/widgets/sidebar_recent_posts.php:135
+msgid "Number of products to show:"
+msgstr ""
+
+#: inc/widgets/list_services.php:9
+msgid "List of services"
+msgstr ""
+
+#: inc/widgets/list_services.php:9
+msgid "List of services widget."
+msgstr ""
+
+#: inc/widgets/list_services.php:17 vc_templates/cms_department2.php:70
+msgid "Our Services"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:9
+msgid "Medix recent post"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:11
+msgid "Medix - Recent Post"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:91 inc/widgets/news_tabs.php:141
+#, php-format
+msgid "%s (View)"
+msgid_plural "%s (Views)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/medix_widget_post.php:94 vc_templates/cms_grid--blog2.php:89
+#: vc_templates/cms_grid--blog2.php:106 vc_templates/cms_grid--blog2.php:121
+#: vc_templates/cms_grid--blog2.php:180
+#: vc_templates/cms_grid_services--layout1.php:34
+msgid "Read more"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:119
+#: inc/widgets/medix_widget_recent_comment.php:54
+msgid "Number of post to show:"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:122
+msgid "Order type:"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:124
+msgid "Recent first"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:125
+msgid "Popular first"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:128
+msgid "Show readmore:"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:140
+msgid "Show image:"
+msgstr ""
+
+#: inc/widgets/medix_widget_post.php:146
+msgid "Show views:"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:7
+msgid "Medix recent comment"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:9
+msgid "Medix - Recent Comment"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:35 inc/widgets/news_tabs.php:90
+#: inc/widgets/news_tabs.php:138 inc/widgets/news_tabs.php:176
+msgid "on"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:57
+msgid "Type of list:"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:59
+#: vc_templates/cms_gallery_carousel.php:36
+msgid "All"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:60 woocommerce/cart/cart.php:36
+msgid "Products"
+msgstr ""
+
+#: inc/widgets/medix_widget_recent_comment.php:61
+msgid "Post"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:9
+msgid "CMS News Tab Widget"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:9
+msgid "Popular post, recent post and comments."
+msgstr ""
+
+#: inc/widgets/news_tabs.php:41
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:46
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:199
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:203
+msgid "Number of recent posts:"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:207
+msgid "Number of comments:"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:212
+msgid "Show popular posts"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:216
+msgid "Show recent posts"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:220
+msgid "Show comments"
+msgstr ""
+
+#: inc/widgets/news_tabs.php:223
+msgid "Extra Class:"
+msgstr ""
+
+#: inc/widgets/recent_post_v2.php:9
+msgid "CS Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent_post_v2.php:9
+msgid "Recent Posts Widget."
+msgstr ""
+
+#: inc/widgets/recent_post_v2.php:17 inc/widgets/sidebar_recent_posts.php:17
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/sidebar_recent_posts.php:9
+msgid "Sidebar Recent Posts"
+msgstr ""
+
+#: inc/widgets/sidebar_recent_posts.php:9
+msgid "Sidebar Recent Posts Widget."
+msgstr ""
+
+#: inc/widgets/sidebar_recent_posts.php:127
+msgid "Show meta:"
+msgstr ""
+
+#: inc/widgets/social_media.php:29 inc/widgets/widget_text.php:29
+msgid "Arbitrary text or HTML."
+msgstr ""
+
+#: inc/widgets/social_media.php:33
+msgid "Social media"
+msgstr ""
+
+#: inc/widgets/social_media.php:116
+msgid "Social round"
+msgstr ""
+
+#: inc/widgets/widget_text.php:33
+msgid "Cms Text"
+msgstr ""
+
+#: inc/widgets/widget_text.php:113
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/widget_text.php:116
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: single-gallery.php:83 single-gallery.php:212
+msgid "client"
+msgstr ""
+
+#: single-templates/content-none.php:12
+#: single-templates/search-not-found.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: single-templates/content-none.php:15
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: single-templates/content-page.php:17
+msgid "Edit"
+msgstr ""
+
+#: single-templates/content/content-audio.php:36
+#: single-templates/content/content-gallery.php:36
+#: single-templates/content/content-link.php:31
+#: single-templates/content/content-quote.php:37
+#: single-templates/content/content-search.php:33
+#: single-templates/content/content-status.php:39
+#: single-templates/content/content-video.php:37
+#: single-templates/content/content.php:36
+#: single-templates/single/content-audio.php:36
+#: single-templates/single/content-gallery.php:36
+#: single-templates/single/content-link.php:37
+#: single-templates/single/content-quote.php:41
+#: single-templates/single/content-status.php:45
+#: single-templates/single/content-video.php:37
+#: single-templates/single/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: single-templates/search-not-found.php:15
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single-templates/single/content-audio.php:31
+#: single-templates/single/content-gallery.php:31
+#: single-templates/single/content-link.php:32
+#: single-templates/single/content-quote.php:36
+#: single-templates/single/content-status.php:40
+#: single-templates/single/content-video.php:32
+#: single-templates/single/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: userpress/default/form-login.php:20 userpress/default/form-register.php:21
+msgid "Username"
+msgstr ""
+
+#: userpress/default/form-login.php:21
+msgid "User Name"
+msgstr ""
+
+#: userpress/default/form-login.php:21 userpress/default/form-login.php:25
+#: userpress/default/form-register.php:22
+#: userpress/default/form-register.php:26
+#: userpress/default/form-register.php:30
+#: userpress/default/form-register.php:34
+#: userpress/default/form-register.php:38
+msgid "Required Field"
+msgstr ""
+
+#: userpress/default/form-login.php:24 userpress/default/form-login.php:25
+#: userpress/default/form-register.php:29
+#: userpress/default/form-register.php:30
+msgid "Password"
+msgstr ""
+
+#: userpress/default/form-login.php:30
+msgid "Remember Me"
+msgstr ""
+
+#: userpress/default/form-login.php:33
+msgid "Create New Account"
+msgstr ""
+
+#: userpress/default/form-login.php:33
+msgid "Forget Password?"
+msgstr ""
+
+#: userpress/default/form-login.php:38
+msgid "Sign In"
+msgstr ""
+
+#: userpress/default/form-register.php:22
+msgid "User name"
+msgstr ""
+
+#: userpress/default/form-register.php:22
+msgid "Username too short. At least 4 characters is required."
+msgstr ""
+
+#: userpress/default/form-register.php:22
+msgid ""
+"The value of text field can't contain any of the following characters: "
+"\\ / : * ? \" < > space"
+msgstr ""
+
+#: userpress/default/form-register.php:26
+msgid "The Email address is incorrect!"
+msgstr ""
+
+#: userpress/default/form-register.php:30
+msgid "Password length must be greater than 5."
+msgstr ""
+
+#: userpress/default/form-register.php:33
+#: userpress/default/form-register.php:34
+msgid "Confirm Password"
+msgstr ""
+
+#: userpress/default/form-register.php:34
+msgid "Your password and confirmation password do not match."
+msgstr ""
+
+#: userpress/default/form-register.php:39
+msgid "I Agree to the"
+msgstr ""
+
+#: userpress/default/form-register.php:39
+msgid "Terms of use ?"
+msgstr ""
+
+#: userpress/default/form-register.php:43
+msgid "Sign Up"
+msgstr ""
+
+#: vc_params/cms_counter_single.php:11
+msgid "Color mode"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:11
+msgid "Fancy Style"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:20
+msgid "Select fancybox style"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:48
+msgid "Open Iconic"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:49
+msgid "Typicons"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:50
+msgid "Entypo"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:51
+msgid "Linecons"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:52
+msgid "Pixel"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:54
+msgid "RT Icon"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:67 vc_params/cms_fancybox_single.php:84
+msgid "Fancy Icon Settings"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:102
+msgid "Background color"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:118 vc_params/vc_custom.php:6
+msgid "Top overlap"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:137
+msgid "Top background color"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:140
+msgid "Apply for case of top overlap"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:147
+msgid "Title thin"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:163
+msgid "Title Item"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:167
+msgid "Title Of Item"
+msgstr ""
+
+#: vc_params/cms_fancybox_single.php:173
+msgid "Content Item"
+msgstr ""
+
+#: vc_params/cms_grid.php:22
+msgid "Show Read more"
+msgstr ""
+
+#: vc_params/cms_grid.php:32
+msgid "Read more background color"
+msgstr ""
+
+#: vc_params/cms_grid.php:34
+msgid "Primary background"
+msgstr ""
+
+#: vc_params/cms_grid.php:35
+msgid "Secondary background"
+msgstr ""
+
+#: vc_params/cms_grid.php:46
+msgid "Layout1"
+msgstr ""
+
+#: vc_params/cms_grid.php:47
+msgid "Layout2"
+msgstr ""
+
+#: vc_params/cms_grid.php:55
+msgid "Show Social Sharing"
+msgstr ""
+
+#: vc_params/cms_grid.php:76
+msgid "Enter the number of work to display"
+msgstr ""
+
+#: vc_params/vc_column.php:10
+msgid "CSS Animation"
+msgstr ""
+
+#: vc_params/vc_column.php:11
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: vc_params/vc_column.php:17
+msgid "Delay"
+msgstr ""
+
+#: vc_params/vc_column.php:20
+msgid "Enter the data delay as 150"
+msgstr ""
+
+#: vc_params/vc_column.php:24
+msgid "Select padding type"
+msgstr ""
+
+#: vc_params/vc_column.php:32 vc_params/vc_column_text.php:22
+#: vc_params/vc_column_text.php:29 vc_params/vc_column_text.php:36
+#: vc_params/vc_column_text.php:44 vc_params/vc_custom_heading.php:16
+#: vc_params/vc_custom_heading.php:26 vc_params/vc_row.php:14
+#: vc_params/vc_row.php:30 vc_params/vc_row.php:46 vc_params/vc_row.php:53
+#: vc_params/vc_row.php:60
+msgid "Other setting"
+msgstr ""
+
+#: vc_params/vc_column_text.php:10
+msgid "List Style"
+msgstr ""
+
+#: vc_params/vc_column_text.php:15
+msgid "list1"
+msgstr ""
+
+#: vc_params/vc_column_text.php:16
+msgid "list1 no bullets"
+msgstr ""
+
+#: vc_params/vc_column_text.php:17
+msgid "list2"
+msgstr ""
+
+#: vc_params/vc_column_text.php:18
+msgid "list2 triangle bullet"
+msgstr ""
+
+#: vc_params/vc_column_text.php:19
+msgid "list3 highlight"
+msgstr ""
+
+#: vc_params/vc_column_text.php:26
+msgid "Font size"
+msgstr ""
+
+#: vc_params/vc_column_text.php:33
+msgid "Line height"
+msgstr ""
+
+#: vc_params/vc_column_text.php:41
+msgid "Color"
+msgstr ""
+
+#: vc_params/vc_custom.php:13
+msgid "Regular"
+msgstr ""
+
+#: vc_params/vc_custom.php:14
+msgid "Featured image"
+msgstr ""
+
+#: vc_params/vc_custom.php:15
+msgid "Bordered"
+msgstr ""
+
+#: vc_params/vc_custom.php:23 vc_params/vc_custom.php:49
+msgid "Theme Style"
+msgstr ""
+
+#: vc_params/vc_custom.php:31 vc_params/vc_custom.php:57
+msgid "Theme Color"
+msgstr ""
+
+#: vc_params/vc_custom.php:40
+msgid "Theme vertical"
+msgstr ""
+
+#: vc_params/vc_custom.php:41
+msgid "Theme vertical home"
+msgstr ""
+
+#: vc_params/vc_custom_heading.php:10
+msgid "Uppercase text transform"
+msgstr ""
+
+#: vc_params/vc_custom_heading.php:20
+msgid "Font-weight: thin"
+msgstr ""
+
+#: vc_params/vc_row.php:5
+msgid "Space in px"
+msgstr ""
+
+#: vc_params/vc_row.php:6
+msgid "Change row margin and columns padding"
+msgstr ""
+
+#: vc_params/vc_row.php:18
+msgid "Padding top"
+msgstr ""
+
+#: vc_params/vc_row.php:19
+msgid "Select padding top"
+msgstr ""
+
+#: vc_params/vc_row.php:34
+msgid "Padding bottom"
+msgstr ""
+
+#: vc_params/vc_row.php:35
+msgid "Select padding bottom"
+msgstr ""
+
+#: vc_params/vc_row.php:50
+msgid "Gradient background"
+msgstr ""
+
+#: vc_params/vc_row.php:57
+msgid "Visible overflow"
+msgstr ""
+
+#: vc_params/vc_row.php:64
+msgid "Overlay opacity"
+msgstr ""
+
+#: vc_params/vc_row.php:71
+msgid "Background image fixed"
+msgstr ""
+
+#: vc_templates/cms_countdown.php:17
+msgid "Please choose your time remaining first!"
+msgstr ""
+
+#: vc_templates/cms_fancybox_single.php:19
+msgid "Read More"
+msgstr ""
+
+#: vc_templates/cms_grid_services--layout2.php:50
+msgid "Our Provider"
+msgstr ""
+
+#: vc_templates/cms_pricing.php:64 vc_templates/cms_pricing.php:102
+#: vc_templates/cms_pricing.php:139
+msgid "Sign Up Now"
+msgstr ""
+
+#: vc_templates/cms_teaser.php:50
+msgid "Regular Button"
+msgstr ""
+
+#: vc_templates/cms_testimonial_carousel.php:28
+#: vc_templates/testimonial_carousel.php:9
+msgid "Please add a testimonial text!"
+msgstr ""
+
+#: vc_templates/zo_masonry.php:49
+msgid "ALL"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+msgid "Shipping "
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22 woocommerce/cart/cart-shipping.php:97
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:20
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:29
+msgid "Cart Subtotal: "
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Shiping and Handling: "
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:37
+msgid "Order Total: "
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:51
+msgid " (taxes estimated for )"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:54
+msgid ""
+"Note: Shipping and taxes are estimated and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:121
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:39
+msgid "Total Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:60
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92 woocommerce/single-product/rating.php:36
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/cart/cart.php:94 woocommerce/single-product/rating.php:38
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:95 woocommerce/single-product/rating.php:39
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:109
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:158
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:158
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:163
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:26
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:44
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:62
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:51
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:70
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:78
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/content-single-product.php:152
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:39
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d Results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:41
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:27
+#: woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:41
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:43
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:42
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/wc-template-hooks.php:93
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:110 woocommerce/wc-template-hooks.php:120
+msgid "First Name *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:111 woocommerce/wc-template-hooks.php:121
+msgid "Last Name *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:112 woocommerce/wc-template-hooks.php:122
+msgid "Company Name"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:113
+msgid "Email Address *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:114
+msgid "Phone *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:115 woocommerce/wc-template-hooks.php:123
+msgid "Town / City *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:116 woocommerce/wc-template-hooks.php:124
+msgid "Postcode *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:117 woocommerce/wc-template-hooks.php:125
+msgid "State *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:118 woocommerce/wc-template-hooks.php:126
+msgid "Country *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:128
+msgid "Username or email *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:129
+msgid "Password *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:130
+msgid "Retype Password *"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:132
+msgid "Order Notes"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:136
+msgid "Email Address"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:137
+msgctxt "placeholder"
+msgid "Email Address"
+msgstr ""
+
+#: woocommerce/wc-template-hooks.php:144
+msgctxt "placeholder"
+msgid "Phone"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "medix"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.spyropress.com/themeforest/medix"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The 2017 theme for WordPress is a fully responsive theme that looks great on "
+"any device. Features include a front page template with its own widgets, an "
+"optional display font, styling for post formats on both index and single "
+"views, and an optional no-sidebar page template. Make it yours with a custom "
+"menu, header image, and background."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Redexp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/redexp"
+msgstr ""

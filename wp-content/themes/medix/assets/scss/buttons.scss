@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+12 Button
+--------------------------------------------------------------*/
+/*.btn{
+    white-space: normal;
+}  */
+.btn-default{
+    background: #323232;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    &:hover,&:active,&:focus,&:active:hover{
+        background: #323232;
+        box-shadow: none;
+        text-shadow: none;    
+        color: rgba(255, 255, 255, 0.5); 
+    }     
+    &.is-dark{
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+    }   
+}
+body{
+    .btn-primary{
+        background: $primary_color;
+        &:hover,&:active,&:focus,&:active:hover{
+            background: $primary_color;
+        }
+    }  
+    .btn-secondary{
+        background: $second_color;
+        &:hover,&:active,&:focus{
+            background: $second_color;
+        }
+    }
+    .btn-inverse{
+        color: #102035;
+        background-color: #f3f4f5;
+        &:hover,&:active,&:focus{
+            color: rgba(16, 32, 53, 0.7);
+            background-color: #f3f4f5;
+        }
+    }
+    .btn-white{
+        color: #102035;
+        background-color: #ffffff;
+        &:hover,&:active,&:focus{
+            color: rgba(16, 32, 53, 0.7);
+            background-color: #ffffff;
+        }
+    }
+}
+.cms-btn{
+    i[class*="glyphicon"],i[class*="fa-"],i[class*="pe-7s"]{
+        font-size: 1.5em;
+        position: relative;
+        top: 3px;
+        line-height: 0;
+    }
+    i[class*="rt-icon"] {
+        font-size: 1.8em;
+        line-height: 0;
+        position: relative;
+        top: 5px;
+        padding: 0 3px;
+    }
+
+    &.text-inline{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+}
+
+.btn-loadmore{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 23px 35px;
+    line-height: 1;
+    display: inline-block;
+    min-width: 8.5em;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    background-color: $second_color;
+    border-radius: 0px;
+    position: relative;
+    vertical-align: middle;
+    @include transition(all .3s linear 0s);
+    &:hover,&:active,&:focus{
+        box-shadow: none;
+        outline: none;
+        border: 0;
+        color: rgba(255, 255, 255, 0.7)
+    }
+}
+.bgprimary{
+    .btn-loadmore{
+        background-color: $second_color;
+    }
+}
+.bgprimary{
+    .btn-loadmore{
+        background-color: $primary_color;
+    }
+}
+
+body.woocommerce #respond input#submit, 
+.woocommerce.single-product form.cart .button,
+.woocommerce .woocommerce-message .button,
+.woocommerce-page .action-cart .button,
+.woocommerce-page .calculated_shipping .button,
+form.login .button,
+.woocommerce-page .return-to-shop .button,
+.checkout_coupon input[type="submit"],
+.woocommerce-page .place-order input[type="submit"],
+.shopcartmenu .shopcart .btn,
+.woocommerce button.button,
+.post-password-form input[type="submit"],
+.woocommerce-account input.button{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    background: $primary_color;
+    border-radius: 0px;
+    position: relative;
+    vertical-align: middle;
+    @include transition(all .3s linear 0s);
+    &:hover,&:active,&:focus{
+        box-shadow: none;
+        outline: none;
+        border: 0;
+        background: $primary_color;
+        color: rgba(255, 255, 255, 0.5)
+    }  
+}
+.post-password-form input[type="password"]{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 42px;
+    height: 42px;
+}
+ 

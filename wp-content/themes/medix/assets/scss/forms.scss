@@ -1,0 +1,657 @@
+/*--------------------------------------------------------------
+11 Form
+--------------------------------------------------------------*/
+select, 
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.login-select, 
+.form-control,
+.uneditable-input {
+    display: block;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 0;
+    color: #1a1a1a;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #dadada;
+    background-image: none;
+    width: 100%;
+    @include transition(all .3s ease-in-out);
+}
+.form-control:-moz-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: #737880;
+    opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: #737880;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: #737880;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: #737880;
+}
+
+.form-control:focus:-moz-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: transparent;
+    opacity: 1;
+}
+
+.form-control:focus::-moz-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: transparent;
+    opacity: 1;
+}
+
+.form-control:focus:-ms-input-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    font-style: italic;
+    text-transform: uppercase;
+    color: transparent;
+}
+/*
+::-webkit-input-placeholder { color:#ccc; }
+::-moz-placeholder { color:#ccc; }  
+:-ms-input-placeholder { color:#ccc; }  
+input:-moz-placeholder { color:#ccc; } 
+*/
+
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.login-select:focus, 
+.form-control:focus,
+.uneditable-input:focus {
+    outline: none;
+    border-color: $primary_color !important;
+}
+fieldset{
+    padding: 20px;
+    border: 1px solid #dadada;
+}
+
+textarea {
+    resize: vertical;
+    height: 125px;
+    padding: 20px 28px;
+}
+select {
+    max-width: 100%;
+    overflow: auto;
+    vertical-align: top;
+    outline: none;
+    border: 1px solid #dadada;
+    
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{
+    position: relative;
+    margin-left: 0;
+} 
+.checkbox label, .radio label{
+    padding-left: 0;
+    margin-right: 8px;
+}
+.btn,
+button,
+input[type="button"],
+input[type="submit"]{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 23px 35px;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    background-color: #323232;
+    border-radius: 0px;
+    position: relative;
+    vertical-align: middle;
+    @include transition(all .3s linear 0s);
+    &:hover,&:active,&:focus{
+        box-shadow: none;
+        outline: none;
+        border: 0;
+        //opacity: 0.5;
+        color: rgba(255, 255, 255, 0.5)
+    }  
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline: none;
+}
+label {
+    margin-bottom: 5px;
+}
+.form-control {
+    box-shadow: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+.search-no-results .entry-content{  
+    form{
+        position: relative;
+        width: 100%;
+    }
+    .form-control{
+        box-shadow: none;
+        border: 1px solid #dadada;
+        color: $primary_color;
+        background-color: #fff;
+        margin-bottom: 0;
+        padding-right: 38px;
+        border-radius: 0;
+        &:focus + .btn{
+            color: $second_color;
+        }
+    }
+    .btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: transparent !important;
+        border: 0;
+        color: $primary_color;
+        width: 50px;
+        height: 45px;
+        font-size: 18px;
+        padding: 0;
+        @include transition(all .3s ease-in-out);
+        i{
+            line-height: 45px;
+        }
+        &:hover,&:focus,&:active{
+            color: $second_color;
+            outline: none;
+            box-shadow: none;
+        }
+        span{
+            font-size: 18px;
+        }
+    }
+} 
+ 
+
+/* contact form */
+.contact-form{
+    p{
+        margin-bottom: 10px;
+    }
+    > p:last-child{
+        margin-bottom: 0;
+    }
+   
+}
+ 
+.wpcf7-form{ 
+    p{
+        margin-bottom: 10px;
+    }
+    .row{
+        margin-left: -5px;
+        margin-right: -5px;
+        > div{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+    textarea{
+        height: 162px;
+    }
+    .wpcf7-submit{
+        margin-top: 45px;
+    }
+    
+    div.wpcf7-validation-errors {
+        border: 0;
+        font-size: 14px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 10px;
+        margin-bottom: 0;
+        color: red;
+    }
+    ::-webkit-input-placeholder { font-style: italic; text-transform: uppercase; color: #737880; }
+    ::-moz-placeholder { font-style: italic; text-transform: uppercase; color: #737880; }  
+    :-ms-input-placeholder { font-style: italic; text-transform: uppercase; color: #737880; }  
+    input:-moz-placeholder { font-style: italic; text-transform: uppercase; color: #737880; }
+
+    .contact-form-style2,.contact-form-style3{
+        textarea{
+            height: 200px;
+        }
+        .wpcf7-submit{
+            margin-top: 30px;
+        }
+    }
+    .contact-form-style3{
+        background-image: url(../images/progress.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #ffffff;
+        padding: 50px 50px 35px;
+        position: relative;
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: -1px;
+            background-color: rgba(1, 178, 183,0.9);
+        }
+        select, textarea, input[type="text"], input[type="email"]{
+            border-color: #fff;
+            &:hover,&:active,&:focus{
+                border-color: #fff;
+            }
+        }
+        ::-webkit-input-placeholder { font-style: italic; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); }
+        ::-moz-placeholder { font-style: italic; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); }  
+        :-ms-input-placeholder { font-style: italic; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); }  
+        input:-moz-placeholder { font-style: italic; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); }
+    }
+  
+}
+div.wpcf7{
+    .wpcf7-form{
+        .ajax-loader{
+            display: none;
+            &.is-active{
+                display: inline-block;
+            }
+        }
+    }
+}
+.vc_tta-panel{
+    .wpcf7-form .wpcf7-submit{
+        margin-top: 0;
+        background-color: #323232;
+        &:hover,&:focus{
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+/* booking-form */
+.booking-form{
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+        > div{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+     
+    .input-group {
+        position: relative;
+        width: 100%;
+    }
+
+    .form-control + i {
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        font-size: 14px;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .select-group {
+        position: relative;
+        .bootstrap-select + i {
+            position: absolute;
+            top: 22px;
+            right: 30px;
+            font-size: 14px;
+            -webkit-transition: 0.2s;
+            transition: 0.2s;
+        }
+    }
+    
+    .select-group {
+        width: 100%;
+        position: relative;
+        .bootstrap-select.btn-group {
+            display: block;
+            .btn {
+                margin: 0;
+            }
+        }
+        .bootstrap-select{
+            width: 100% !important;
+            .btn-default {
+                color: rgba(255, 255, 255, 0.7);
+                font-weight: 400;
+                float: none;
+                background-color: transparent;
+                border: 1px solid #dadada;
+                &:focus {
+                    color: rgba(255, 255, 255, 0.7);
+                    background-color: transparent;
+                    outline: none !important;
+                    box-shadow: none;
+                }
+                &:hover {
+                    color: rgba(255, 255, 255, 0.7);
+                    background-color: transparent;
+                }
+            }
+        }
+
+    }
+  
+    .select-group.no-bs-caret .bs-caret, .select-group.no-bs-caret .caret {
+        display: none;
+    }
+       
+    .select-group.no-bs-caret .bootstrap-select + i {
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        font-size: 14px;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+    }
+
+    .select-group.no-bs-caret:hover .bootstrap-select + i {
+        opacity: 0.5;
+    }
+
+    .select-group .dropdown-menu {
+        padding: 0 30px;
+        margin: 0;
+        border: none;
+        box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .select-group .dropdown-menu > li > a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #737880;
+        font-style: italic;
+        padding: 10px 0;
+    }
+
+    .select-group .dropdown-menu > li > a:hover {
+        opacity: 0.5;
+    }
+
+    .select-group .btn-group.open .dropdown-toggle {
+        box-shadow: none;
+    }
+     
+    .container-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .container-flex > * {
+        -webkit-box-flex: 1;
+        -ms-flex: auto;
+        flex: auto;
+    }
+    
+    .radio input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"] + label:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 6px;
+        margin-bottom: 2px;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+    }
+    input[type="radio"]:checked + label:before {
+        padding: 3px;
+        background-color: #ffffff;
+        background-clip: content-box;
+    }
+    select{
+        background: transparent;
+        padding: 16px 30px;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        -o-appearance:none;
+        appearance:none; 
+        option{
+            background: #999;
+        }
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    input::-ms-clear,
+    input::-ms-reveal {
+      display: none;
+      width: 0;
+      height: 0; 
+    }
+    i{
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        font-size: 14px;
+    }
+    &.layout1{
+        input[type="submit"]{
+            white-space: normal;
+            padding: 23px 20px;
+            display: block;
+            width: 100%;
+        }
+        textarea{
+            padding: 9px 30px;
+        }
+    }
+    &.layout3{
+        select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="time"],input[type="email"]{
+            color: #ffffff;
+            border-color: #ffffff;
+            &:hover,&:active,&:focus{
+                border-color: rgba(255, 255, 255, 0.5) !important;
+            } 
+        }
+        i{
+            color: rgba(255, 255, 255, 0.6);
+        }
+        .input-group:hover i{ opacity: 0.5; }
+        ::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.7); }
+        ::-moz-placeholder { color: rgba(255, 255, 255, 0.7); }  
+        :-ms-input-placeholder { color: rgba(255, 255, 255, 0.7); }  
+        input:-moz-placeholder { color: rgba(255, 255, 255, 0.7); } 
+
+        .select-group .bootstrap-select .btn-default{
+            border-color: #ffffff;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        label{
+            color: #fff;
+        }
+    }
+    .fsb-modal{
+        .fa-button-request{
+            text-align: center;
+        }
+    }
+
+}
+.appointment-form-wrap {
+    background-color: $primary_color;
+    position: relative;
+    z-index: 2;
+    padding: 55px 60px;
+    margin-top: 10px;
+    @media (max-width: 1199px){
+        padding: 40px;
+    }
+    .corner-icon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -60px;
+        right: 0;
+        line-height: 60px;
+        font-size: 28px;
+        text-align: center;
+        display: none;
+        color: #fff;
+        background-color: $primary_color;
+    }
+}
+ 
+@media (min-width: 992px) {
+    .appointment-form-wrap {
+        margin-top: -60px;
+    }
+
+    .appointment-form-wrap .corner-icon {
+        display: block;
+    }
+}
+.overlay-opacity{
+    .booking-form{
+        i{
+            color: #fff;
+        }
+        input[type="text"],select,textarea{
+            color: #ffffff;
+            border-color: #ffffff;
+            &:focus{
+                border-color: #fff !important;
+            }
+        }
+        
+        ::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.7); }
+        ::-moz-placeholder { color: rgba(255, 255, 255, 0.7); }  
+        :-ms-input-placeholder { color: rgba(255, 255, 255, 0.7); }  
+        input:-moz-placeholder { color: rgba(255, 255, 255, 0.7); } 
+        .select-group {
+            .bootstrap-select{
+                .btn-default {
+                    border-color: #fff;
+                }
+            }
+        }
+        .bootstrap-select > .dropdown-toggle.bs-placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+
+/* login form */ 
+.modal-open {
+    padding-right: 0px !important;
+    overflow:auto;
+    overflow-x:hidden;
+}
+.form-login,.form-register{
+    .container{
+        max-width: 750px;
+    }
+    .modal-content{
+        border-radius: 0;
+        button.close{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: $second_color;
+            opacity: 1;
+            @include transition(all .3s linear 0s);
+            &:hover{
+                color: $second_color_hex;
+            }
+        }
+    }
+    .modal-body{
+        padding: 20px 30px;
+        background: #fff;
+        .field-group{
+            margin-bottom: 10px;
+        }
+        label{
+            color: #737880;
+            padding: 0;
+        }
+        a{
+            color: $link_color_regular;
+            cursor: pointer;
+            &:hover{
+                color: $link_color_hover;
+            }
+        }
+        .terms-of-use-link{
+            margin-left: 10px;
+        }
+    }
+
+}

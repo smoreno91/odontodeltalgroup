@@ -1,0 +1,47 @@
+body.ds{
+	.cms-pricing .features-list .enabled:before, 
+	.cms-pricing .features-list .disabled:before{
+		color: #8a9099;
+	}
+	.cms-pricing.layout2{
+		border-color: rgba(255, 255,255, 0.1);
+	}
+	.cms-pricing.layout2 .features-list li + li {
+	    border-color: rgba(255, 255,255, 0.1);
+	}
+	&.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-regular .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body{
+		border-color: rgba(255, 255,255, 0.1);
+	}
+	&.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-image .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body{
+		border-color: rgba(255, 255,255, 0.1);
+	}
+	&.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-vertical .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body{
+		border-color: rgba(255, 255,255, 0.1);
+	}
+	.list1 ul li{
+		border-color: rgba(255, 255,255, 0.1);
+	}
+	.cms-events .event-item{
+		background-color: rgba(255, 255, 255, 0.06);
+	}
+	&.single-tribe_events .site-content{
+		background: $dark_bg_color;
+	}
+	&.single-team .site-content{
+		background: $dark_bg_color;
+	}
+	&.post-type-archive-gallery .site-content{
+		background: $dark_bg_color;
+	}
+	&.single-gallery.layout1 .site-content{
+		background: $dark_bg_color;
+	}
+	&.single-post .site-content{
+		background: $dark_bg_color;
+	}
+	 
+	.woocommerce-checkout-payment,.woocommerce-checkout-payment .payment_box{
+		background: transparent !important;
+	}
+
+}

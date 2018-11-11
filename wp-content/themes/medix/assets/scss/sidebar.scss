@@ -1,0 +1,201 @@
+/*--------------------------------------------------------------
+9.0 Sidebar
+--------------------------------------------------------------*/
+.widget-area{
+	overflow: hidden;
+    .wg-title{
+        line-height: 1;
+    }
+    .widget + .widget{
+	    margin-top: 80px;
+	}
+	a{
+        color: $grey_link_color_regular;
+        &:hover{
+            color: $grey_link_color_hover;
+        }
+    }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+		color: inherit;
+	}
+	.widget_nav_menu {
+	    li{
+	        border: 0;
+	        + li{
+	            border-top: 0 !important;
+	        }
+	        a{
+	            &:after{
+	                content: "";
+	                background: rgba(0, 0, 0, 0.1);
+	                width: 10000px;
+	                height: 1px;
+	                position: absolute;
+	                top: 100%;
+	                left: -100%;
+	                right: -100%;
+	            }
+	            
+	        }
+	         
+	    } 
+	}
+	.ds .widget_nav_menu{
+	    li a:after{
+	        background: rgba(255, 255, 255, 0.1);
+	    }
+	}
+	.widget_recent_comments li + li, 
+	.widget_archive li + li, 
+	.widget_categories li + li, 
+	.widget_meta li + li, 
+	.widget_popular_entries li + li, 
+	.widget_nav_menu li + li, 
+	.widget_pages li + li{
+		a:after{
+			content: "";
+            background: rgba(0, 0, 0, 0.1);
+            width: 10000px;
+            height: 1px;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            right: -100%;
+		}
+	}
+	.widget_medix_recent_post li + li{
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.widget_recent_comments li > ul > li, 
+	.widget_archive li > ul > li, 
+	.widget_categories li > ul > li, 
+	.widget_meta li > ul > li, 
+	.widget_popular_entries li > ul > li, 
+	.widget_nav_menu li > ul > li, 
+	.widget_pages li > ul > li{
+		a:after{
+			content: "";
+            background: rgba(0, 0, 0, 0.1);
+            width: 10000px;
+            height: 1px;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            right: -100%;
+		}
+	} 
+}
+.wpb_widgetised_column{
+	overflow: hidden;
+    .wg-title{
+        line-height: 1;
+    }
+    .widget + .widget{
+	    margin-top: 80px;
+	}
+	a{
+        color: $grey_link_color_regular;
+        &:hover{
+            color: $grey_link_color_hover;
+        }
+    }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+		color: inherit;
+	}
+	.widget_nav_menu {
+	    li{
+	        border: 0;
+	        + li{
+	            border-top: 0 !important;
+	        }
+	        a{
+	            &:after{
+	                content: "";
+	                background: rgba(0, 0, 0, 0.1);
+	                width: 10000px;
+	                height: 1px;
+	                position: absolute;
+	                top: 100%;
+	                left: -100%;
+	                right: -100%;
+	            }
+	            
+	        }
+	         
+	    } 
+	}
+	.ds .widget_nav_menu{
+	    li a:after{
+	        background: rgba(255, 255, 255, 0.1);
+	    }
+	}
+	.widget_recent_comments li + li, 
+	.widget_archive li + li, 
+	.widget_categories li + li, 
+	.widget_meta li + li, 
+	.widget_popular_entries li + li, 
+	.widget_nav_menu li + li, 
+	.widget_pages li + li{
+		a:after{
+			content: "";
+            background: rgba(0, 0, 0, 0.1);
+            width: 10000px;
+            height: 1px;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            right: -100%;
+		}
+	}
+	.widget_medix_recent_post li + li{
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.widget_recent_comments li > ul > li, 
+	.widget_archive li > ul > li, 
+	.widget_categories li > ul > li, 
+	.widget_meta li > ul > li, 
+	.widget_popular_entries li > ul > li, 
+	.widget_nav_menu li > ul > li, 
+	.widget_pages li > ul > li{
+		a:after{
+			content: "";
+            background: rgba(0, 0, 0, 0.1);
+            width: 10000px;
+            height: 1px;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            right: -100%;
+		}
+	} 
+}
+.ds{
+	.widget-area{
+	    .widget_recent_comments li + li, 
+	    .widget_archive li + li, 
+	    .widget_categories li + li, 
+	    .widget_meta li + li, 
+	    .widget_popular_entries li + li, 
+	    .widget_nav_menu li + li, 
+	    .widget_pages li + li{
+	    	a:after{
+	            background: rgba(255, 255, 255, 0.1);
+			}
+	    }
+	    .widget_medix_recent_post li + li{
+			border-top: 1px solid rgba(255, 255, 255, 0.1);
+		}
+	}
+	.widget_recent_comments li > ul > li, 
+	.widget_archive li > ul > li, 
+	.widget_categories li > ul > li, 
+	.widget_meta li > ul > li, 
+	.widget_popular_entries li > ul > li, 
+	.widget_nav_menu li > ul > li, 
+	.widget_pages li > ul > li{
+		a:after{
+			background: rgba(255, 255, 255, 0.1);
+		}
+	} 
+}
+

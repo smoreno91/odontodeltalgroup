@@ -1,0 +1,298 @@
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+::-moz-selection {
+    color: #ffffff;
+    background-color: $primary_color;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    background-color: #ffffff;
+    overflow: visible;
+    overflow-x: hidden;
+    color: #737880;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $third_color;
+    font-weight: 900;
+    word-break: break-word;
+    font-family: 'Roboto', sans-serif;
+    a{
+        color: inherit;
+        &:hover{
+            color: $third_color_hover;
+        }
+    }
+    &.highlight a{
+        color: inherit;
+        &:hover{
+            color: $link_color_hover;
+        }
+    }
+    &.highlight2 a{
+        color: inherit;
+        &:hover{
+            color: $link_second_color_hover;
+        }
+    }
+}
+ 
+h1, .h1 { font-size: 100px; }
+h2, .h2 { font-size: 60px; }
+h3, .h3 { font-size: 40px; }
+h4, .h4 { font-size: 30px; }
+h5, .h5 { font-size: 20px; }
+h6, .h6 { font-size: 16px; }
+
+@media (max-width: 1199px) {
+    h1, .h1 { font-size: 60px; }
+    h2, .h2 { font-size: 40px; }
+    h3, .h3 { font-size: 30px; }
+    h4, .h4 { font-size: 24px; }
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	padding-top: 0;
+    margin-top: 0;
+}
+.bottommargin_20{
+    margin-bottom: 20px;
+}
+.section_header{
+    text-transform: uppercase;
+    line-height: 0.8;
+    position: relative;
+    word-wrap: break-word;
+}
+p {
+	margin-bottom: 20px;
+	padding: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+blockquote {
+    position: relative;
+    border-left: none;
+    padding: 0 90px;
+    overflow: hidden;
+    border-left: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    &:before,&:after{
+        position: absolute;
+        top: 0;
+        font-family: 'Rochester', cursive;
+        font-size: 240px;
+        font-style: normal;
+        line-height: 0.65;
+        color: $second_color;
+    }
+    &:before{
+        content: "“";
+        left: 0;
+    }
+    &:after{
+        content: "”";
+        right: 0;
+    }
+    h4,p{
+        text-align: center;
+    }
+    h4{
+        margin-top: 30px !important;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 479px) {
+    .blockquote-big {
+        padding: 0 30px;
+    }
+
+    .blockquote-big:before, .blockquote-big:after {
+        font-size: 100px;
+    }
+}
+blockquote .media {
+    font-size: 14px;
+    font-style: normal;
+    margin: 0 0 6px;
+    padding-top: 10px;
+}
+
+blockquote .media img {
+    min-width: 40px;
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+blockquote .item-meta {
+    margin-top: 30px;
+    font-style: normal;
+    opacity: 1;
+}
+
+blockquote .item-meta h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+blockquote .item-meta h4 + p {
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+blockquote .item-meta h5 {
+    margin-bottom: 0;
+}
+
+img, figure {
+    max-width: 100%;
+    height: auto;
+}
+ 
+
+address {
+	margin: 0 0 10px;
+}
+
+pre {
+    border-radius: 0;
+    white-space: pre;
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+:focus {
+	outline: none;
+}
+.list1 ul{
+    list-style: none;
+    padding-left: 0;
+    li{
+        position: relative;
+        padding: 9px 0 10px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        &:first-child {
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            border: 1px solid $primary_color;
+            left: 10px;
+            top: 17px;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+        }
+    }
+}
+.list1.no-bullets{
+    li{
+        padding-left: 0;
+        &:before{
+            content: none;
+        }
+    }
+}
+ul.list2,.list2 ul{
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    li {
+        position: relative;
+        padding: 3px 0 3px 0;
+        &:first-child {
+            padding-top: 0;
+            &:before {
+                top: 14px;
+            }
+        }
+        &:before {
+            content: "";
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: $second_color;
+            position: absolute;
+            left: -18px;
+            top: 19px;
+        }
+    }
+}
+.list2.triangle-bullet{
+    li{
+        &:first-child {
+            padding-top: 0;
+            &:before {
+                top: 0;
+            }
+        }
+        &:before {
+            font-family: FontAwesome;
+            content: "\f0da";
+            width: auto;
+            height: auto;
+            font-size: 14px;
+            color: $primary_color;
+            background-color: transparent;
+            position: absolute;
+            left: -18px;
+            top: 3px;
+        }
+    }
+}
+.list3 ol,
+ol.list3 {
+    padding-left: 20px;
+    color: $primary_color;
+}
+.list3 li {
+    position: relative;
+    padding: 3px 0 3px 5px;
+}
+
+h1 > [class*="rt-icon"], h2 > [class*="rt-icon"], h3 > [class*="rt-icon"], h4 > [class*="rt-icon"], h5 > [class*="rt-icon"], h6 > [class*="rt-icon"] {
+    font-size: 1.2em;
+    position: relative;
+    top: .17em;
+    line-height: 0;
+    padding-right: 0.1em;
+}
+ 

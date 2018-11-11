@@ -1,0 +1,2 @@
+<button id="<?php echo isset($id) ? $id : '' ?>" type="button"
+        class="btn <?php echo isset($class) ? $class : 'btn-default waves-effect'; ?>"><?php echo isset($content) ? $content : 'button' ?></button>

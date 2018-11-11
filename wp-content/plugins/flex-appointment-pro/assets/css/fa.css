@@ -1,0 +1,689 @@
+.fa-additional-ts {
+    border-top: 1px solid #000;
+
+}
+
+.fa-additional-ts-title {
+    margin-top: 10px;
+}
+
+td.fc-day-top {
+    position: relative;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    font-size: 28px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 38%;
+    padding: 20px;
+}
+
+.fc-scroller.fc-day-grid-container {
+    height: 100% !important;
+}
+
+.fa-active {
+    background-color: rgba(136, 136, 136, 0.32);
+}
+
+.fsa-ct-book {
+    min-height: 200px;
+    background-color: rgba(136, 136, 136, 0.32);
+    position: relative;
+    padding: 2%;
+    text-align: left;
+    color: #fff;
+    border-bottom-color: #ddd;
+}
+
+.fsa-ct-book h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.booked-list {
+    background: #fff;
+    padding: 30px 35px 10px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #000;
+}
+
+.fa-tooltip {
+    width: 99%;
+    height: 98% !important;
+    position: absolute;
+    border: solid #b6d1e1;
+}
+
+.fa-has-appointment {
+
+    position: relative;
+}
+
+.fa-show-day {
+    border-bottom: none;
+}
+
+.fa-hide {
+    display: none;
+}
+
+#time_slots .col-lg-10.col-lg-offset-1 {
+    margin: 0;
+    width: 100%;
+}
+
+table.booked-timeslots {
+    font-weight: 400;
+    background: #fff;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bookedTimeslotsWrap {
+    position: relative;
+    overflow-x: auto;
+    padding-bottom: 16px;
+}
+
+table.booked-timeslots tbody td:first-child {
+    padding-left: 0;
+}
+
+table.booked-timeslots tbody td {
+    vertical-align: top;
+    border: none;
+    padding: 0 10px;
+    border-right: 3px solid #e5e5e5;
+    width: 14%;
+}
+
+table.booked-timeslots thead {
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+}
+
+table.booked-timeslots thead th {
+    position: relative;
+    padding: 5px 0px 16px;
+    text-align: left;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    width: 14.285%;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+table.booked-timeslots thead th:last-child, table.booked-timeslots tbody td:last-child {
+    border-right: none;
+}
+
+table.booked-timeslots thead th:first-child, table.booked-timeslots tbody td:first-child {
+    border-left: none;
+}
+
+table.booked-timeslots tbody td:last-child {
+    padding-right: 0;
+}
+
+table.booked-timeslots tbody td .timeslot:first-child {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+}
+
+table.booked-timeslots tbody td .timeslot {
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.6;
+    padding: 7px 10px;
+    display: block;
+    position: relative;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+table.booked-timeslots tbody td .start {
+    display: inline-block;
+    text-align: left;
+}
+
+table.booked-timeslots tbody td .end {
+    display: inline-block;
+    text-align: left;
+}
+
+table.booked-timeslots tbody td .slotsBlock {
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+table.booked-timeslots tbody td .fa-delete {
+    cursor: pointer;
+    position: absolute;
+    right: 11px;
+    top: 6px;
+    text-align: right;
+    color: #f59e9e;
+    z-index: 1;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p.fa_title_day {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.info-box-4.hover-expand-effect {
+    margin-bottom: 10px !important;
+}
+
+a.fa-btn-add-timeslot.button {
+    float: right;
+}
+
+div#fa-add-timeslots-temp {
+    margin-bottom: 25px;
+}
+
+.fa-add-wait {
+    display: none;
+    top: 8px;
+}
+
+.fa-add-wait.la-ball-clip-rotate-multiple.la-dark.la-sm div {
+    color: #333;
+}
+
+.fa-add-wait.la-ball-clip-rotate-multiple.la-dark.la-sm {
+    position: relative;
+}
+
+.fa-add-noti {
+    display: inline-block;
+}
+
+span.fa_changeCount_add.material-icons, span.fa_changeCount_minus.material-icons {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fa-pending-page-title {
+    font-size: 40px;
+    background: #5d9eee;
+    text-align: center;
+    padding: 26px;
+}
+
+button.delete-all.button {
+    margin-right: 50px;
+}
+
+.fa-pending-page-caption {
+    width: auto;
+}
+
+.fa-pending-list {
+    border-bottom: solid red 1px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+p.fa-pending-time {
+    display: inline;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+i.dashicons.dashicons-clock {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.fa-pending-date {
+    margin: 10px 0px;
+}
+
+a.fa-user {
+    padding: 0px;
+    margin: 15px 0px;
+    display: inline;
+    cursor: pointer;
+}
+
+.pending-appt {
+    padding-bottom: 18px;
+}
+
+.fa-pendding-btn {
+    display: inline-block;
+    float: left;
+}
+
+.fa-ud-close {
+    float: right;
+    cursor: pointer;
+}
+
+.fa-user-detail.la-ball-clip-rotate-multiple.la-dark.la-3x {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background: rgba(127, 93, 93, 0.26);
+}
+
+.fa-app-info i {
+    padding-right: 10px;
+}
+
+.fa-app-wait.la-ball-clip-rotate-multiple.la-dark.la-3x {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(136, 125, 125, 0.62);
+}
+
+.fa-booked-ts-time {
+    width: 30%;
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 19px;
+}
+
+.fa-wait.la-ball-clip-rotate-multiple.la-dark.la-3x {
+    top: 0;
+    left: 0;
+    background: rgba(149, 136, 136, 0.52);
+    width: 100%;
+    height: 100%;
+}
+
+div.fa-booked-app {
+    border-bottom: solid 1px;
+    padding: 20px;
+}
+
+div.fa-booked-app:last-child {
+    border: none;
+}
+
+.fa-booked-app button.fa-approve-btn.button-primary, .fa-additional-booked-app button.fa-approve-btn.button-primary {
+    float: right;
+}
+
+.fa-booked-delete {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #F59E9E;
+    cursor: pointer;
+}
+
+.fa-booked-ts {
+    border-top: solid 1px;
+}
+
+p.fa-ts-time-val {
+    display: inline;
+}
+
+.fa-booked-count {
+    width: 60%;
+    display: inline-block;
+    border-left: solid 1px;
+    min-height: 66px;
+    padding: 16px;
+}
+
+.fa-booked-appt-list:last-child {
+    border-bottom: solid 1px;
+}
+
+.md-overlay {
+    opacity: 0.4 !important;
+}
+
+.fa-additional-booked-app {
+    padding: 20px;
+}
+
+.fa-pending-count {
+    background: #d55f27;
+    padding: 0 6px;
+    margin-left: 8px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.fa-item-ts {
+    margin-bottom: 15px;
+}
+
+.fa-add-content select {
+    margin-bottom: 15px;
+}
+
+.fa-cont-info-title {
+    font-size: 19px;
+    font-family: bold;
+    margin-bottom: 5px;
+}
+
+.fa-app-info-title {
+    font-size: 19px;
+    font-family: bold;
+    margin-bottom: 5px;
+}
+
+.fa-ui-name {
+    padding-bottom: 5px;
+}
+
+.fa-date {
+    padding-bottom: 5px;
+}
+
+.md-content > div {
+    padding: 15px 40px 3px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+.fa-app-info {
+    padding-bottom: 21px !important;
+}
+
+i.fa-icon-st-ts.dashicons.dashicons-clock {
+    font-size: 20px;
+}
+
+.form-control-label label {
+    font-weight: 700;
+}
+
+input.fa-sc-input {
+    font-size: 25px;
+}
+
+p.fa-shortcode-des {
+    font-size: 16px;
+}
+
+h3.fa-shortcode-title {
+    color: #1ba9d5;
+}
+
+.fs-list-radio {
+    min-height: 49px;
+}
+
+th.fa-check-list {
+    width: 12%;
+}
+
+ul.fa-mailop-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.fa-mailop-tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+}
+
+ul.fa-mailop-tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.fa-mailop-tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.fa-mailop-tab-content.current {
+    display: inherit;
+}
+
+input.fa-mail-op-subject {
+    padding: 15px;
+    font-size: 17px;
+    height: 50px;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.fa-custom-email {
+    margin-bottom: 45px;
+}
+
+ul.fa-data-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.fa-data-tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+}
+
+ul.fa-data-tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.fa-data-tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.fa-data-tab-content.current {
+    display: inherit;
+}
+
+.fa-custom-email {
+    margin-bottom: 45px;
+}
+
+img.fa-reset-img {
+    width: 46%;
+}
+
+.fa-reset-contents {
+    display: inline-block;
+    position: absolute;
+    padding-left: 16px;
+}
+
+.fa-reset-intro {
+    width: 46%;
+    display: inline-block;
+}
+
+img.fa-reset-img {
+    width: 100%;
+}
+
+.fa-process-bar {
+    height: 21px;
+    width: 100%;
+    background: #989898;
+}
+
+.fa-process-stt {
+    background: #00ff39;
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease 0s;
+}
+
+.fa-rs-info-title {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.fa-data-number {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.fa-row-data {
+    margin: 20px 0px;
+}
+
+.fa-btn-reset.btn {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+h1.fa-rs-title {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 29px;
+}
+
+.fa-ex-title {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 29px;
+}
+
+.fa-ex-button.btn {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+label.fa-ex-select-lb {
+    margin-right: 25px;
+}
+
+.fa-ex-select {
+    margin: 10px 0px;
+}
+
+.fa-ex-handling {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fs-ex-file {
+    display: inline-block;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 12%;
+}
+
+.fa-item-name {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    vertical-align: text-bottom;
+}
+
+.fa-item-btn {
+    display: inline-block;
+    float: right;
+    width: 17%;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.fa-item-size {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.fa-item {
+    height: auto;
+    margin: 10px 0px;
+    border-bottom: solid 1px #4c4343;
+    padding-bottom: 17px;
+}
+
+a.dashicons.dashicons-download.fa-btn-download:before {
+    font-size: 45px;
+}
+
+a.dashicons.dashicons-no.fa-btn-delete:before {
+    font-size: 45px;
+    float: right;
+}
+
+a.dashicons.dashicons-no.fa-btn-delete {
+    float: right;
+}
+
+a.dashicons.dashicons-download.fa-btn-download:hover {
+    text-decoration: none !important;
+    color: #2196f3;
+}
+
+a.dashicons.dashicons-download.fa-btn-download {
+    color: #364465;
+}
+
+a.dashicons.dashicons-no.fa-btn-delete {
+    float: right;
+    color: #364465;
+}
+
+a.dashicons.dashicons-no.fa-btn-delete:hover {
+    text-decoration: none !important;
+    color: red;
+}
+
+a.dashicons.dashicons-download.fa-btn-download:focus {
+    text-decoration: none;
+}

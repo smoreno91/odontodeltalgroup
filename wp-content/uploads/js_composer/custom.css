@@ -1,0 +1,103 @@
+/* General */
+.btn, button, input[type="button"], input[type="submit"] {
+    background-color: #B4D841;
+}
+.no-heading h1,
+.no-heading h2,
+.no-heading h3,
+.no-heading h4,
+.no-heading h5,
+.no-heading h6{
+    display:none;
+}
+
+/* Header */
+.header-layout1 .nav-menu > li > a {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+.social-icon.color-bg-icon {
+    background-color: #B4D841;
+}
+/* Footer */
+.footer-bottom .copyright:after {
+    content:"" !important;
+}
+/* Breadcrumbs */
+body.home .page-title.layout-5 {
+    display: none !important;
+}
+.page-title.layout-5 {
+    background-image: none !important;
+}
+.page-title.layout-5 .page-title-text {
+    padding-bottom: 25px;
+}
+.page-title.layout-5 h2 {
+    color: #2CB5B8;
+}
+.breadcrumb-text {
+    display:none !important;
+}
+/* Content */
+.site-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.fl-row-content-wrap {
+    padding-top:0;
+}
+.fl-module-content.fl-node-content{
+    margin-top: 0;
+}
+/* Contacto */
+.contact_icons {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+/* Alianzas */
+.each-alianza {
+    background-color: #fff;
+    margin: 0px 20px 30px;
+}
+.each-alianza h6 {
+    display:none !important;
+}
+/* Tratamientos */
+.sidebar-tratamientos h2{
+    color: #2CB5B8;
+    font-size: 27px;
+}
+.sidebar-tratamientos ul li a{
+    padding: 5px 0 5px 15px;;
+}
+.each-service h5 {
+    color: #2CB5B8;
+}
+/* Travelers */
+.travelers-border-right {
+    border-right: 1px solid #6A7E93;   
+}
+/* Blog*/
+.widget_medix_recent_post .wg-title {
+    font-size: 26px;
+    color: #2CB5B8;
+}
+.widget_medix_recent_post .post-title {
+    color: #2CB5B8 !important;
+}
+.widget_medix_recent_post .entry-date {
+    font-weight: bold;
+}
+a.each-item-blog-button {
+    background-color: #B4D841 !important;
+    border: none !important;
+}
+.each-item-blog-title h4{
+    color: #2CB5B8 !important;   
+}
+/* Home */
+.each-tratamiento-home h5{
+    color: #ffffff;
+}

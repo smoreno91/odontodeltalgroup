@@ -1,0 +1,16 @@
+.medix_calendar_button span{
+    background-color: #737880;
+    color: #fff;
+    padding: 5px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.admin-calendar-editor label{
+    margin-bottom: 10px;
+    display: block;
+}
+.admin-calendar-table td{
+    text-align: center;
+}
+ 
