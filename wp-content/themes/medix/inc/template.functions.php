@@ -5,23 +5,23 @@
  */
 function medix_get_theme_option(){
      global $opt_theme_options, $opt_meta_options;
-       
+
      if(is_page() && isset($opt_meta_options['show_header_top']) && $opt_meta_options['show_header_top'] == '1')
         $opt_theme_options['disable_header_top'] = 0;
      if($opt_theme_options['disable_header_top'] == '1' && ( $opt_theme_options['header_side'] == '1' || (isset($_GET['header_side']) && $_GET['header_side'] == 1)))
         $opt_theme_options['disable_header_top'] = 0;
      if(is_page() && isset($opt_meta_options['disable_footer_top']) && $opt_meta_options['disable_footer_top']=='1')
         $opt_theme_options['disable_footer_top'] = 1;
-    
+
      if(is_page() && !empty($opt_meta_options['footer_top_layout']))
         $opt_theme_options['footer_top_layout'] = $opt_meta_options['footer_top_layout'];
-     
+
      if(is_page() && !empty($opt_meta_options['footer_bottom_layout']))
         $opt_theme_options['footer_bottom_layout'] = $opt_meta_options['footer_bottom_layout'];
-        
+
      return $opt_theme_options;
 }
- 
+
 /**
  * get meta option
  */
@@ -34,28 +34,28 @@ function medix_get_meta_option(){
  */
 function medix_page_loading(){
     global $opt_theme_options;
-    
+
     if(!isset($opt_theme_options) || (isset($opt_theme_options['page_loading']) && !$opt_theme_options['page_loading']))
         return;
     echo '<div class="preloader">';
 		echo '<div class="preloader_image"></div>';
 	echo '</div>';
-      
+
 }
 /**
  * get header layout.
  */
 function medix_header(){
     global $opt_theme_options, $opt_meta_options;
-    
-    if(!class_exists('EF3_Framework') || ( class_exists('EF3_Framework') && empty($opt_theme_options['header_layout']))){ 
+
+    if(!class_exists('EF3_Framework') || ( class_exists('EF3_Framework') && empty($opt_theme_options['header_layout']))){
         get_template_part('inc/header/header', 'layout1');
         return;
     }
-    
+
     if(is_page() && !empty($opt_meta_options['header_layout']))
         $opt_theme_options['header_layout'] = $opt_meta_options['header_layout'];
-        
+
     if( (isset($opt_theme_options['header_side']) && $opt_theme_options['header_side']) || (isset($_GET['header_side']) && $_GET['header_side'] == 1))
         get_template_part('inc/header/header', 'side');
     else
@@ -67,21 +67,21 @@ function medix_header(){
  */
 function medix_header_layout_class($class = ''){
     global $opt_theme_options,$opt_meta_options;
-      
+
     if(empty($opt_theme_options)){
         echo esc_attr($class);
         return;
     }
-    
+
     if(is_page() && !empty($opt_meta_options['header_layout']))
         $opt_theme_options['header_layout'] = $opt_meta_options['header_layout'];
-        
+
     if(!empty($opt_theme_options['header_layout']))
         $class = 'header-'.$opt_theme_options['header_layout'];
 
     if(is_page() && !empty($opt_meta_options['header_transparent']))
         $class .= ' header-transparent';
-     
+
     echo esc_attr($class);
 }
 
@@ -90,7 +90,7 @@ function medix_header_layout_class($class = ''){
  */
 function medix_header_logo(){
     global $opt_theme_options, $opt_meta_options;
-    
+
     if(is_page() && !empty($opt_meta_options['main_logo']['url'])){
         $opt_theme_options['main_logo']['url'] = $opt_meta_options['main_logo']['url'];
         $opt_theme_options['tran_logo']['url'] = $opt_meta_options['main_logo']['url'];
@@ -146,7 +146,7 @@ function medix_header_sticky_logo(){
 
     echo '</div>';
 }
- 
+
 /**
  * get header class.
  */
@@ -190,7 +190,7 @@ function medix_header_navigation(){
     /* main nav. */
     wp_nav_menu( $attr );
 }
- 
+
 /**
  * Change search form
  **/
@@ -211,7 +211,7 @@ add_filter( 'get_search_form', 'medix_my_search_form' );
  */
 function medix_page_title(){
     global $opt_theme_options, $opt_meta_options;
-    
+
     if(is_404()) return;
     /* default. */
     $layout = '1';
@@ -219,18 +219,18 @@ function medix_page_title(){
     /* get theme options */
     if(isset($opt_theme_options['page_title_layout']))
         $layout = $opt_theme_options['page_title_layout'];
-    
+
     if(isset($opt_theme_options['page_title_layout']))
         $layout = $opt_theme_options['page_title_layout'];
-        
+
     if(isset($opt_meta_options['disable_page_title']) && $opt_meta_options['disable_page_title']=='1'){
         return;
     }
-     
+
     /* custom layout from page. */
     if(is_page() && !empty($opt_meta_options['page_title_layout']))
         $layout = $opt_meta_options['page_title_layout'];
-     
+
     ?>
     <div id="page-title" class="page-title <?php echo 'layout-'.esc_attr($layout);?>">
     <?php if(isset($opt_theme_options['page_title_is_overlay']) && $opt_theme_options['page_title_is_overlay']=='1') echo '<div class="bg-overlay"></div>'; ?>
@@ -389,7 +389,7 @@ function medix_get_bread_crumb() {
 
     bcn_display();
 }
- 
+
 /**
  * Display an optional post video.
  */
@@ -493,7 +493,7 @@ function medix_post_quote() {
     $quote_sub_title = !empty($opt_meta_options['opt-quote-sub-title']) ? '<p>'.esc_html($opt_meta_options['opt-quote-sub-title']).'</p>' : '' ;
 
     echo '<blockquote>'.esc_html($opt_meta_options['opt-quote-content']).wp_kses_post($quote_title).wp_kses_post($quote_sub_title).'</blockquote>';
-     
+
 }
 
 /**
@@ -505,11 +505,11 @@ function medix_post_status() {
     if(empty($opt_meta_options['opt-status'])){
         return;
     }
-    
+
     echo '<div class="media inline-block">';
 		echo '<img src="'.esc_url($opt_meta_options['opt-status']['thumbnail']).'" alt="" class="round">';
 	echo '</div>';
-     
+
 }
 
 /**
@@ -519,19 +519,19 @@ function medix_post_status() {
  * views, or a div element when on single views.
  */
 function medix_post_thumbnail($size='') {
-     
+
     global $opt_theme_options;
     if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
         return;
     }
-     
+
     $img_size = 'large';
     if($size!='') $img_size = $size;
-     
+
     echo '<div class="post-thumbnail">';
             the_post_thumbnail($img_size);
     echo '</div>';
- 
+
 }
 
 function medix_post_sidebar(){
@@ -541,7 +541,7 @@ function medix_post_sidebar(){
 
     if(isset($opt_theme_options['single_layout']))
         $_sidebar = $opt_theme_options['single_layout'];
-        
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_sidebar = 'full';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
@@ -564,11 +564,11 @@ function medix_post_class(){
             $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'right' )
             $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
-    
+
     echo esc_attr($_class);
 }
 function medix_event_sidebar(){
-    global $opt_theme_options; 
+    global $opt_theme_options;
     $_sidebar = 'full';
     if(is_singular()){
         if(isset($opt_theme_options['event_single_layout']))
@@ -606,19 +606,19 @@ function medix_post_detail(){
 
     ?>
     <ul class="single_detail">
-        
+
         <?php if(!isset($opt_theme_options['single_date']) || (isset($opt_theme_options['single_date']) && $opt_theme_options['single_date'])): ?>
 
             <li class="detail-date"><?php echo esc_html__('Posted','medix'); ?> <a href="<?php echo get_day_link(false, false, false); ?>"><?php the_date(); ?></a></li>
 
         <?php endif; ?>
-        
+
         <?php if(isset($opt_theme_options['single_author']) && $opt_theme_options['single_author']): ?>
 
             <li class="detail-author"><?php echo esc_html__('by','medix'); ?> <?php the_author_posts_link(); ?></li>
 
         <?php endif; ?>
- 
+
         <?php if(!isset($opt_theme_options['single_comment']) || (isset($opt_theme_options['single_comment']) && $opt_theme_options['single_comment'])): ?>
 
             <li class="detail-comment"><a href="<?php the_permalink(); ?>"><?php echo esc_html(comments_number('0','1','%')); ?> <?php esc_html_e('Comments', 'medix'); ?></a></li>
@@ -630,7 +630,7 @@ function medix_post_detail(){
             <li class="detail-tags"><?php the_tags('', ', ' ); ?></li>
 
         <?php endif; ?>
- 
+
     </ul>
     <?php
 }
@@ -639,7 +639,7 @@ function medix_post_detail(){
  * Display an optional event detail.
  */
 function medix_event_detail(){
-   
+
     ?>
     <ul class="single_detail">
         <li class="detail-date"><?php echo esc_html__('Posted','medix'); ?> <a href="<?php echo get_day_link(false, false, false); ?>"><?php the_date(); ?></a></li>
@@ -657,7 +657,7 @@ function medix_post_cats(){
     }else if(has_category() && (!isset($opt_theme_options['single_categories']) || (isset($opt_theme_options['single_categories']) && $opt_theme_options['single_categories']))){
         ?>
         <div class="categories-links"><?php the_terms( get_the_ID(), 'category', '', ' ' ); ?></div>
-        <?php  
+        <?php
     }
 }
 /**
@@ -666,7 +666,7 @@ function medix_post_cats(){
 function medix_event_cats(){
     ?>
         <div class="categories-links"><?php the_terms( get_the_ID(), 'tribe_events_cat', '', ' ' ); ?></div>
-    <?php   
+    <?php
 }
 
 /**
@@ -688,23 +688,23 @@ function medix_entry_footer(){
  */
 function medix_archive_detail(){
     global $opt_theme_options;
-    $archive_year  = get_the_time('Y'); 
-    $archive_month = get_the_time('m'); 
-    $archive_day   = get_the_time('d'); 
-       
+    $archive_year  = get_the_time('Y');
+    $archive_month = get_the_time('m');
+    $archive_day   = get_the_time('d');
+
     ?>
     <ul class="archive_detail">
-        
+
         <?php if(!isset($opt_theme_options['archive_date']) || (isset($opt_theme_options['archive_date']) && $opt_theme_options['archive_date'])): ?>
             <li class="detail-date"><?php echo esc_html__('Posted','medix'); ?> <a href="<?php echo get_day_link( $archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></li>
         <?php endif; ?>
-        
+
         <?php if(!isset($opt_theme_options['archive_author']) || (isset($opt_theme_options['archive_author']) && $opt_theme_options['archive_author'])): ?>
 
             <li class="detail-author"><?php echo esc_html__('by','medix'); ?> <?php the_author_posts_link(); ?></li>
 
         <?php endif; ?>
- 
+
         <?php if(!isset($opt_theme_options['archive_comment']) || (isset($opt_theme_options['archive_comment']) && $opt_theme_options['archive_comment'])): ?>
 
             <li class="detail-comment"><a href="<?php the_permalink(); ?>"><?php echo esc_html(comments_number('0','1','%')); ?> <?php esc_html_e('Comments', 'medix'); ?></a></li>
@@ -717,9 +717,9 @@ function medix_archive_detail(){
 
         <?php endif; ?>
     </ul>
-    
+
     <?php
-    
+
 }
 /**
  * Display an optional archive category.
@@ -731,7 +731,7 @@ function medix_archive_cats(){
     }else if(has_category() && (!isset($opt_theme_options['archive_categories']) || (isset($opt_theme_options['archive_categories']) && $opt_theme_options['archive_categories']))){
         ?>
         <div class="categories-links"><?php the_terms( get_the_ID(), 'category', '', ' ' ); ?></div>
-        <?php  
+        <?php
     }
 }
 function medix_archive_sidebar(){
@@ -741,14 +741,14 @@ function medix_archive_sidebar(){
 
     if(isset($opt_theme_options['archive_layout']))
         $_sidebar = $opt_theme_options['archive_layout'];
-        
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_sidebar = 'full';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
         $_sidebar = 'left';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'right' )
         $_sidebar = 'right';
-        
+
     return 'is-sidebar-' . esc_attr($_sidebar);
 }
 
@@ -759,14 +759,14 @@ function medix_gallery_archive_sidebar(){
 
     if(isset($opt_theme_options['gallery_archive_layout']))
         $_sidebar = $opt_theme_options['gallery_archive_layout'];
-        
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_sidebar = 'full';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
         $_sidebar = 'left';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'right' )
         $_sidebar = 'right';
-        
+
     return 'is-sidebar-' . esc_attr($_sidebar);
 }
 
@@ -777,15 +777,15 @@ function medix_archive_class(){
 
     if(isset($opt_theme_options['archive_layout']) && $opt_theme_options['archive_layout'] == 'full')
         $_class = "col-xs-12 col-sm-12 col-md-10 col-md-push-1";
-        
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_class = "col-xs-12 col-sm-12 col-md-10 col-md-push-1";
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
         $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'right' )
         $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
-        
-        
+
+
     echo esc_attr($_class);
 }
 
@@ -796,15 +796,15 @@ function medix_gallery_archive_class(){
 
     if(isset($opt_theme_options['gallery_archive_layout']) && $opt_theme_options['gallery_archive_layout'] == 'full')
         $_class = "col-xs-12 col-sm-12 col-md-10 col-md-push-1";
-        
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_class = "col-xs-12 col-sm-12 col-md-10 col-md-push-1";
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
         $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'right' )
         $_class = "col-xs-12 col-sm-12 col-md-8 col-lg-8";
-        
-        
+
+
     echo esc_attr($_class);
 }
 
@@ -838,14 +838,14 @@ function medix_get_gallery_cols(){
 
 function medix_get_gallery_single_layout(){
     global $opt_theme_options, $opt_meta_options;
-    
+
     if( !empty($opt_meta_options['opt_gallery_single_layout']))
         $gallery_layout = $opt_meta_options['opt_gallery_single_layout'];
     elseif(!empty($opt_theme_options['gallery_single_layout']))
         $gallery_layout = $opt_theme_options['gallery_single_layout'];
-    else 
+    else
         $gallery_layout = 'layout1';
-        
+
     return $gallery_layout;
 }
 /**
@@ -853,15 +853,15 @@ function medix_get_gallery_single_layout(){
  */
 function medix_footer_top(){
     global $opt_theme_options,$opt_meta_options;
-     
+
     if(!isset($opt_theme_options))
         return;
     if(is_page() && !empty($opt_meta_options['footer_top_layout']))
         $opt_theme_options['footer_top_layout'] = $opt_meta_options['footer_top_layout'];
-    
+
     if(is_page() && !empty($opt_meta_options['footer_top_logo']['url']))
     $opt_theme_options['footer_top_logo']['url'] = $opt_meta_options['footer_top_logo']['url'];
-        
+
     $_class = "";
     if(!empty($opt_theme_options['footer_top_layout'])){
         if($opt_theme_options['footer_top_layout'] == 'layout-1'){
@@ -881,7 +881,7 @@ function medix_footer_top(){
                     if(!empty($opt_theme_options['footer_top_logo']['url'])) {
                         $footer_top_logo_url = !empty($opt_theme_options['footer_top_logo_url']) ? $opt_theme_options['footer_top_logo_url'] : home_url('/') ;
                         echo '<a class="footer-top-logo" href="' . esc_url($footer_top_logo_url) . '"><img alt="' .  get_bloginfo( "name" ) . '" src="' . esc_url($opt_theme_options['footer_top_logo']['url']) . '"></a>';
-                    } 
+                    }
                     dynamic_sidebar( 'sidebar-footer-top-layout1-col1' );
                 echo "</div>";
             }
@@ -936,8 +936,8 @@ function medix_footer_top(){
                 }
             }
         }
-        
-        
+
+
     }
 }
 
@@ -945,20 +945,20 @@ function medix_footer_bottom(){
     global $opt_theme_options,$opt_meta_options;
     if(is_page() && !empty($opt_meta_options['footer_bottom_layout']))
         $opt_theme_options['footer_bottom_layout'] = $opt_meta_options['footer_bottom_layout'];
-        
+
     if(empty($opt_theme_options['footer_bottom_layout'])){
         get_template_part('inc/footer-bottom/footer_bottom', 'layout-1');
     }else{
-        get_template_part('inc/footer-bottom/footer_bottom', $opt_theme_options['footer_bottom_layout']);    
+        get_template_part('inc/footer-bottom/footer_bottom', $opt_theme_options['footer_bottom_layout']);
     }
 }
 function get_footer_bottom_style(){
     global $opt_meta_options;
     if(is_page() && !empty($opt_meta_options['footer_bottom_style']))
         return $opt_meta_options['footer_bottom_style'];
-    elseif(isset($_GET['ls']) && trim($_GET['ls']) == '1' ) 
+    elseif(isset($_GET['ls']) && trim($_GET['ls']) == '1' )
         return 'ls';
-    elseif(isset($_GET['cs']) && trim($_GET['cs']) == '1' ) 
+    elseif(isset($_GET['cs']) && trim($_GET['cs']) == '1' )
         return 'cs';
     else
         return '';
@@ -995,15 +995,20 @@ function medix_social_from_themeoption($layout = '',$social_type = '',$social_ro
     }
     if (!empty($layout ) && $layout == 'footer_bottom_layout4') {
         $lists = ( !empty($opt_theme_options['individual_social_on_footer_bottom_layout4']['enabled']) ) ? $opt_theme_options['individual_social_on_footer_bottom_layout4']['enabled'] : '';
-    }  
+    }
     if ( $lists ) {
         echo '<div class="social-icons layout-'.$layout.'">';
         foreach ($lists as $key => $value) {
-            if($key != 'placebo')
-                echo '<a class="social-icon '.$social_type.' '.$social_round.' soc-'.esc_attr($key).'" href="'.esc_url($opt_theme_options[$key]).'" target="_blank"></a>';   
+            if($key != 'placebo'){
+              if($key == 'rss'){
+                echo '<a class="social-icon '.$social_type.' '.$social_round.' soc-whatsapp" href="'.esc_url($opt_theme_options[$key]).'" target="_blank"></a>';
+              }else{
+                echo '<a class="social-icon '.$social_type.' '.$social_round.' soc-'.esc_attr($key).'" href="'.esc_url($opt_theme_options[$key]).'" target="_blank"></a>';
+              }
+            }
         }
         echo '</div>';
-    }  
+    }
 }
 function medix_social_from_themeoption_layout2($layout = '',$social_type = '',$social_round = '') {
     global $opt_theme_options;
@@ -1022,7 +1027,7 @@ function medix_social_from_themeoption_layout2($layout = '',$social_type = '',$s
     }
     if (!empty($layout ) && $layout == 'footer_bottom_layout4') {
         $lists = ( !empty($opt_theme_options['individual_social_on_footer_bottom_layout4']['enabled']) ) ? $opt_theme_options['individual_social_on_footer_bottom_layout4']['enabled'] : '';
-    }  
+    }
     if ( $lists ) {
         echo '<div class="social-icons layout-'.$layout.'">';
         foreach ($lists as $key => $value) {
@@ -1034,10 +1039,10 @@ function medix_social_from_themeoption_layout2($layout = '',$social_type = '',$s
                 echo '<div class="media-body media-middle">'.esc_html($value).'</div>';
                 echo '</div>';
             }
-               
+
         }
         echo '</div>';
-    } 
+    }
 }
 /**
  * Display social share in single footer.
@@ -1072,12 +1077,12 @@ function medix_single_event_share(){
  */
 function medix_portfolio_gallery(){
     global $opt_meta_options;
- 
+
     ?>
     <div class="page-wrapper post-media">
-        <?php 
+        <?php
         if(empty($opt_meta_options['opt_port_gallery'])) {
-            red_organicfood_post_thumbnail('large');   
+            red_organicfood_post_thumbnail('large');
         }else{
             $array_id = explode(",", $opt_meta_options['opt_port_gallery']);
             ?>
@@ -1094,7 +1099,7 @@ function medix_portfolio_gallery(){
                         <?php $i++; endif; ?>
                     <?php endforeach; ?>
                 </div>
-                
+
                 <a class="left carousel-control" href="#carousel-port-gallery" data-slide="prev">
                     <span class="pe-7s-angle-left"></span>
                 </a>
@@ -1102,16 +1107,16 @@ function medix_portfolio_gallery(){
                     <span class="pe-7s-angle-right"></span>
                 </a>
             </div>
-        <?php } ?> 
+        <?php } ?>
     </div>
     <?php
-} 
+}
 /**
  * Display team meta
  */
 function medix_team_meta(){
     global $opt_meta_options;
- 
+
     ?>
     <?php if(!empty($opt_meta_options['opt_team_position'])) {?>
     <p class="position"><?php echo esc_html($opt_meta_options['opt_team_position']); ?></p>
@@ -1134,16 +1139,16 @@ function medix_team_meta(){
             <a class="social-icon soc-<?php echo esc_attr($opt_meta_options['opt_team_social_icon_class_5']);?>" href="<?php echo esc_url($opt_meta_options['opt_team_social_link_5']);?>" title="" target="_blank" data-toggle="tooltip" data-original-title="<?php echo ucfirst(esc_attr($opt_meta_options['opt_team_social_icon_class_5']));?>"></a>
         <?php }?>
     </div>
-    <?php 
-    } 
-} 
+    <?php
+    }
+}
 
 /**
  * Display team meta
  */
 function medix_team_meta_layout1(){
     global $opt_meta_options;
- 
+
     ?>
     <?php if(!empty($opt_meta_options['opt_team_position'])) {?>
     <p class="position"><?php echo esc_html($opt_meta_options['opt_team_position']); ?></p>
@@ -1166,9 +1171,9 @@ function medix_team_meta_layout1(){
             <a class="social-icon color-bg-icon rounded-icon soc-<?php echo esc_attr($opt_meta_options['opt_team_social_icon_class_5']);?>" href="<?php echo esc_url($opt_meta_options['opt_team_social_link_5']);?>" title="" target="_blank"></a>
         <?php }?>
     </div>
-    <?php 
-    } 
-} 
+    <?php
+    }
+}
 
 /**
  * Add specific CSS class by filter
@@ -1176,7 +1181,7 @@ function medix_team_meta_layout1(){
 add_filter( 'body_class', 'medix_body_extra_class' );
 function medix_body_extra_class( $classes ) {
     global $opt_theme_options,$opt_meta_options;
-     
+
     if(is_page() && isset($opt_meta_options['gray_light_bg']) && $opt_meta_options['gray_light_bg'] == '1'){
         $classes[] = 'gray-light';
     }
@@ -1190,12 +1195,12 @@ function medix_body_extra_class( $classes ) {
             $classes[] = $opt_meta_options['opt_gallery_single_layout'];
         elseif(!empty($opt_theme_options['gallery_single_layout']))
             $classes[] = $opt_theme_options['gallery_single_layout'];
-        else 
+        else
             $gallery_layout = 'layout1';
     }
-      
+
 	return $classes;
-     
+
 }
 
 function medix_carousel_nav_style(){
@@ -1207,7 +1212,7 @@ function medix_carousel_nav_style(){
         esc_html__('Vertical with Text','medix') => 'nav-vertical-text',
     );
     return $medix_carousel_nav_style;
-} 
+}
 
 /**
  * Animation lib
@@ -1265,7 +1270,7 @@ function medix_update_woo_number_item_in_page(){
             add_filter( 'loop_shop_per_page', create_function( '$cols', 'return '.$number_product.';' ), 9 );
         }
     }
-} 
+}
 
 /**
  * Shop sidebar
@@ -1277,7 +1282,7 @@ function medix_shop_sidebar(){
 
     if(isset($opt_theme_options['woo_loop_layout']))
         $_sidebar = $opt_theme_options['woo_loop_layout'];
-    
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_sidebar = 'full';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
@@ -1297,7 +1302,7 @@ function medix_shop_single_sidebar(){
 
     if(isset($opt_theme_options['woo_single_layout']))
         $_sidebar = $opt_theme_options['woo_single_layout'];
-    
+
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'full' )
         $_sidebar = 'full';
     if(isset($_GET['layout']) && trim($_GET['layout']) == 'left' )
@@ -1311,7 +1316,7 @@ function medix_get_catalog_cols(){
     global $opt_theme_options;
     if(!isset($opt_theme_options['woo_loop_layout']))
         return 'col-xs-12 col-sm-6 col-md-4';
-        
+
     $is_sidebar = medix_shop_sidebar();
     if($is_sidebar == 'is-sidebar-full'){
         if(isset($_GET['cols']) && trim($_GET['cols']) == 2 )
