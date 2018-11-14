@@ -1000,7 +1000,7 @@ function medix_social_from_themeoption($layout = '',$social_type = '',$social_ro
         echo '<div class="social-icons layout-'.$layout.'">';
         foreach ($lists as $key => $value) {
             if($key != 'placebo'){
-              if($key == 'rss'){
+              if(esc_attr($key) == 'rss'){
                 echo '<a class="social-icon '.$social_type.' '.$social_round.' soc-whatsapp" href="'.esc_url($opt_theme_options[$key]).'" target="_blank"></a>';
               }else{
                 echo '<a class="social-icon '.$social_type.' '.$social_round.' soc-'.esc_attr($key).'" href="'.esc_url($opt_theme_options[$key]).'" target="_blank"></a>';
